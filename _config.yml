@@ -1,0 +1,6 @@
+title: My Portfolio
+description: >- 
+  Welcome to my Data Science and Analytics Portfolio. Here you'll find projects in Power BI and Python.
+baseurl: "" # Do not change this unless your site is hosted in a subdirectory
+url: "https://orbek.github.io/portfolio" # Change this to your GitHub Pages URL
+theme: jekyll-theme-cayman

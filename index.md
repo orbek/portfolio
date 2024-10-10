@@ -1,10 +1,15 @@
+---
+layout: default
+title: Data Science & Analytics Projects
+---
+
 # Data Science & Analytics Projects
 
-Welcome to my portfolio repository, where I showcase my work across various programming languages and data analysis tools. This repository is organized into folders based on the tools and software I use regularly in my professional work. 
+Welcome to my portfolio repository, where I showcase my work across various programming languages and data analysis tools. This repository is organized into folders based on the tools and software I use regularly in my professional work.
 
 ## Repository Structure
-- **Power BI**: This folder contains projects and reports created in Power BI, showcasing my ability to develop insightful and interactive dashboards.
-- **Python**: This folder contains Python scripts and Jupyter notebooks for data wrangling, analysis, and automation.
+- **[Power BI](https://github.com/orbek/portfolio/tree/main/Power%20BI)**: This folder contains projects and reports created in Power BI, showcasing my ability to develop insightful and interactive dashboards.
+- **[Python](https://github.com/orbek/portfolio/tree/main/Python)**: This folder contains Python scripts and Jupyter notebooks for data wrangling, analysis, and automation.
 
 Each folder includes detailed documentation for the respective projects, providing context on the goals and methodologies used.
 
