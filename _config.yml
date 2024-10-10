@@ -1,6 +1,12 @@
-title: My Portfolio
-description: >- 
-  Welcome to my Data Science and Analytics Portfolio. Here you'll find projects in Power BI and Python.
-baseurl: "" # Do not change this unless your site is hosted in a subdirectory
-url: "https://orbek.github.io/portfolio" # Change this to your GitHub Pages URL
-theme: jekyll-theme-cayman
+# Site settings
+title: "Data Science & Analytics Projects"
+description: "Showcasing my work in Power BI, Python, and data analysis."
+remote_theme: pages-themes/minimal@v0.2.0
+google_analytics: "G-1N3HBP1NTX"  # Your Google Analytics ID
+
+# Add this if you already have other plugins
+plugins:
+  - jekyll-remote-theme  # Required for remote themes
+
+# Optional: Add custom logo
+logo: "/assets/images/logo.png"  # Path to your logo image
