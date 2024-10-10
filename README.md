@@ -9,7 +9,7 @@ Welcome to my portfolio repository, where I showcase my work across various prog
 Each folder includes detailed documentation for the respective projects, providing context on the goals and methodologies used.
 
 ## About Me
-I am a **Database and Report Analyst** currently working at Miami Dade College, where I oversee data analysis and reporting for the School of Science. I am responsible for designing and maintaining SQL databases, automating data processes with Python and Power Automate, and creating Power BI and Tableau dashboards for decision-making. I also work with nonprofit organizations like the Belafonte Tacolcy Center to enhance data-driven strategies for client outreach and grant effectiveness.
+I am a **Database Manager and Report Analyst** currently working at Miami Dade College, where I oversee data analysis and reporting for the School of Science. I am responsible for designing and maintaining SQL databases, automating data processes with Python and Power Automate, and creating Power BI for decision-making. I also work with nonprofit organizations like the Belafonte Tacolcy Center to enhance data-driven strategies for client outreach and grant effectiveness.
 
 ### Professional Skills:
 - **Data Analytics**: SQL, Power BI, Tableau, Python
