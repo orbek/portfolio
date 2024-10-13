@@ -27,6 +27,28 @@ I am a **Database Manager and Report Analyst** currently working at Miami Dade C
 2. **Python Automation Scripts**: Python projects designed to automate data processing, including scheduled tasks integrated with SQL databases.
 3. **Database Development**: Database solutions created in Azure SQL and AWS RDS, supporting student and nonprofit data tracking.
 
+## App Projects
+
+### 1. [Disney Internship Project](https://github.com/orbek/DisneyIntership)
+This project was developed as part of the selection process for a Disney internship. It uses the **Streamlit** framework in Python to train a **Logistic Regression** machine learning model on historical data. The model predicts clients likely to abstain from purchases in the upcoming month, helping the marketing team target their campaigns and increase revenue. 
+
+**Features:**
+- Logistic regression model to predict future purchases
+- Upload CSV files to train the model and predict results
+- Export processed data for reporting
+
+**Instructions:**
+- Install dependencies: `pip install -r requirements.txt`
+- Launch the app: `streamlit run main.py`
+- Train with `Clienthistory.csv` and predict on `Clienthistorypred.csv`
+
+### 2. [Tutors Track](https://github.com/orbek/Tutors_track)
+A recent project designed for internal use, **Tutors Track** connects to a database allowing students to track tutoring session participants and manage attendance for classes or general events. It also includes an admin page for managing tutors, class codes, and generating reports.
+
+**Features:**
+- Attendance tracking for tutoring sessions and events
+- Admin dashboard to manage tutors, classes, and reports
+
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
 
