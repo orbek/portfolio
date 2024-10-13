@@ -43,11 +43,13 @@ This project was developed as part of the selection process for a Disney interns
 - Train with `Clienthistory.csv` and predict on `Clienthistorypred.csv`
 
 ### 2. [Tutors Track](https://github.com/orbek/Tutors_track)
-A recent project designed for internal use, **Tutors Track** connects to a database allowing students to track tutoring session participants and manage attendance for classes or general events. It also includes an admin page for managing tutors, class codes, and generating reports.
+**Tutors Track** is a web application built with the **Streamlit** framework, hosted on **Azure Web App**, and connected to an **Azure SQL Server**. The application is designed for internal use, allowing students to track participants in tutoring sessions and manage attendance for classes or general events. It also includes an admin page for managing tutors, class codes, and generating reports.
 
 **Features:**
 - Attendance tracking for tutoring sessions and events
-- Admin dashboard to manage tutors, classes, and reports
+- Admin dashboard to manage tutors, class codes, and generate reports
+- Hosted on **Azure Web App** and connected to **Azure SQL Server** for secure, cloud-based data management
+
 
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
