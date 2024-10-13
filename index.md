@@ -26,3 +26,13 @@ I am a **Database Manager and Report Analyst** currently working at Miami Dade C
 1. **Power BI Dashboards**: Interactive dashboards focusing on academic performance metrics, cohort analysis, and retention trends.
 2. **Python Automation Scripts**: Python projects designed to automate data processing, including scheduled tasks integrated with SQL databases.
 3. **Database Development**: Database solutions created in Azure SQL and AWS RDS, supporting student and nonprofit data tracking.
+
+## Certifications & Education
+Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
+
+- **[Degree](https://github.com/orbek/portfolio/tree/main/Certificates/Degree)**: Includes diplomas such as my Bachelor's in Industrial Engineering and Master's in Science.
+- **[Business Intelligence](https://github.com/orbek/portfolio/tree/main/Certificates/Business%20Intelligence)**: Certifications related to BI tools and methodologies.
+- **[Data Science](https://github.com/orbek/portfolio/tree/main/Certificates/Data%20Science)**: Certifications in Python, machine learning, and data science methodologies.
+- **[Agile](https://github.com/orbek/portfolio/tree/main/Certificates/Agile)**: Certifications in Agile project management and methodologies.
+
+Each certificate includes details of the issuing institution, the skills covered, and validation information where applicable.
