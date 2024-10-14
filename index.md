@@ -37,11 +37,6 @@ This project was developed as part of the selection process for a Disney interns
 - Upload CSV files to train the model and predict results
 - Export processed data for reporting
 
-**Instructions:**
-- Install dependencies: `pip install -r requirements.txt`
-- Launch the app: `streamlit run main.py`
-- Train with `Clienthistory.csv` and predict on `Clienthistorypred.csv`
-
 ### 2. [Tutors Track](https://github.com/orbek/Tutors_track)
 **Tutors Track** is a web application built with the **Streamlit** framework, hosted on **Azure Web App**, and connected to an **Azure SQL Server**. The application is designed for internal use, allowing students to track participants in tutoring sessions and manage attendance for classes or general events. It also includes an admin page for managing tutors, class codes, and generating reports.
 
