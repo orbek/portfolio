@@ -14,7 +14,7 @@ Welcome to my portfolio repository, where I showcase my work across various prog
 Each folder includes detailed documentation for the respective projects, providing context on the goals and methodologies used.
 
 ## About Me
-I am a **Database Manager and Report Analyst** currently working at Miami Dade College, where I oversee data analysis and reporting for the School of Science. I am responsible for designing and maintaining SQL databases, automating data processes with Python and Power Automate, and creating Power BI for decision-making. I also work with nonprofit organizations like the Belafonte Tacolcy Center to enhance data-driven strategies for client outreach and grant effectiveness.
+I am a **Database Manager and Report Analyst** currently working at Miami Dade College, where I oversee data analysis and reporting for the School of Science. I also serve as an **Adjunct Faculty** member at Miami Dade College, teaching classes in Artificial Intelligence. I am responsible for designing and maintaining SQL databases, automating data processes with Python and Power Automate, and creating Power BI dashboards for decision-making. Additionally, I work with nonprofit organizations like the Belafonte Tacolcy Center to enhance data-driven strategies for client outreach and grant effectiveness.
 
 ### Professional Skills:
 - **Data Analytics**: SQL, Power BI, Tableau, Python
@@ -44,7 +44,6 @@ This project was developed as part of the selection process for a Disney interns
 - Attendance tracking for tutoring sessions and events
 - Admin dashboard to manage tutors, class codes, and generate reports
 - Hosted on **Azure Web App** and connected to **Azure SQL Server** for secure, cloud-based data management
-
 
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
