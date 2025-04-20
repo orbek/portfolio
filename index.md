@@ -55,6 +55,15 @@ This paper offers a **comparative analysis** of two major international data pri
 - Real-world enforcement cases illustrating practical applications
 - Final reflections on global trends in data protection and privacy
 
+### 4. [Deep Learning – Analyzing the Behavior of an Imitation-Based Agent](https://github.com/orbek/portfolio/blob/main/projects/Deep%20Learning%20-%20Analyzing%20the%20Behavior%20of%20an%20Imitation-Based%20Agent.pdf)
+This project explores the application of **imitation learning** to develop an AI agent capable of replicating expert gameplay strategies within a simulated ice hockey environment using **SuperTuxKart**.
+
+**Highlights:**
+- Developed multiple deep learning models (Model A, B, and C) to predict an expert agent’s behavior
+- Focused on feature engineering, model training, and fine-tuning (learning rate adjustments, kart type analysis)
+- Achieved significant performance improvements through model architecture refinement and strategic data preparation
+- Demonstrated the effectiveness of deep learning for decision-making in dynamic simulated environments
+
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
 
