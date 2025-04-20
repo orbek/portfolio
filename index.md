@@ -27,7 +27,7 @@ I am a **Database Manager and Report Analyst** currently working at Miami Dade C
 2. **Python Automation Scripts**: Python projects designed to automate data processing, including scheduled tasks integrated with SQL databases.
 3. **Database Development**: Database solutions created in Azure SQL and AWS RDS, supporting student and nonprofit data tracking.
 
-## App Projects
+## Projects
 
 ### 1. [Disney Internship Project](https://github.com/orbek/DisneyIntership)
 This project was developed as part of the selection process for a Disney internship. It uses the **Streamlit** framework in Python to train a **Logistic Regression** machine learning model on historical data. The model predicts clients likely to abstain from purchases in the upcoming month, helping the marketing team target their campaigns and increase revenue. 
@@ -44,6 +44,16 @@ This project was developed as part of the selection process for a Disney interns
 - Attendance tracking for tutoring sessions and events
 - Admin dashboard to manage tutors, class codes, and generate reports
 - Hosted on **Azure Web App** and connected to **Azure SQL Server** for secure, cloud-based data management
+
+### 3. [Ethics in Cybersecurity – Legal Framework Analysis](https://github.com/orbek/portfolio/blob/main/projects/Ethics%20in%20Cybersecurity%20-%20Legal%20Framework%20Analysis.pdf)
+This project offers a **comparative analysis** of two major international data privacy laws: the **European Union’s GDPR** and **Brazil’s LGPD**. It was developed as part of an **Ethics in Cybersecurity** course at Miami Dade College and demonstrates my ability to critically evaluate legal frameworks in cybersecurity and data protection.
+
+**Highlights:**
+- Comprehensive overview of GDPR and LGPD principles, rights, and enforcement mechanisms
+- Detailed side-by-side comparison table
+- Discussion of responsibilities for cybersecurity professionals regarding compliance and incident response
+- Real-world enforcement cases illustrating practical applications
+- Final reflections on global trends in data protection and privacy
 
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
