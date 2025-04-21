@@ -1,7 +1,7 @@
 # Site settings
 title: "Data Science & Analytics Projects"
 description: "Showcasing my work in Power BI, Python, and data analysis."
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
 google_analytics: "G-1N3HBP1NTX"  # Your Google Analytics ID
 linkedin: https://www.linkedin.com/in/09barbosacarlos
 
