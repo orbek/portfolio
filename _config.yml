@@ -7,7 +7,8 @@ linkedin: https://www.linkedin.com/in/09barbosacarlos
 
 # Add this if you already have other plugins
 plugins:
-  - jekyll-remote-theme  # Required for remote themes
+  - jekyll-seo-tag
 
 # Optional: Add custom logo
 logo: "/assets/images/logo.png"  # Path to your logo image
+markdown: kramdown
