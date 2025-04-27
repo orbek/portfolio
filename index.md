@@ -10,6 +10,7 @@ Welcome to my portfolio repository, where I showcase my work across various prog
 ## Repository Structure
 - **[Power BI](https://github.com/orbek/portfolio/tree/main/Power%20BI)**: This folder contains projects and reports created in Power BI, showcasing my ability to develop insightful and interactive dashboards.
 - **[Python](https://github.com/orbek/portfolio/tree/main/Python)**: This folder contains Python scripts and Jupyter notebooks for data wrangling, analysis, and automation.
+- **[Papers](https://github.com/orbek/portfolio/tree/main/papers)**: This folder contains academic papers, research projects, and technical articles I have authored across various fields of study.
 
 Each folder includes detailed documentation for the respective projects, providing context on the goals and methodologies used.
 
@@ -30,7 +31,7 @@ I am a **Database Manager and Report Analyst** currently working at Miami Dade C
 ## Projects and Papers
 
 ### 1. [Disney Internship Project](https://github.com/orbek/DisneyIntership)
-This project was developed as part of the selection process for a Disney internship. It uses the **Streamlit** framework in Python to train a **Logistic Regression** machine learning model on historical data. The model predicts clients likely to abstain from purchases in the upcoming month, helping the marketing team target their campaigns and increase revenue. 
+This project was developed as part of the selection process for a Disney internship. It uses the **Streamlit** framework in Python to train a **Logistic Regression** machine learning model on historical data. The model predicts clients likely to abstain from purchases in the upcoming month, helping the marketing team target their campaigns and increase revenue.
 
 **Features:**
 - Logistic regression model to predict future purchases
@@ -45,7 +46,7 @@ This project was developed as part of the selection process for a Disney interns
 - Admin dashboard to manage tutors, class codes, and generate reports
 - Hosted on **Azure Web App** and connected to **Azure SQL Server** for secure, cloud-based data management
 
-### 3. [Ethics in Cybersecurity – Legal Framework Analysis](https://github.com/orbek/portfolio/blob/main/projects/Ethics%20in%20Cybersecurity%20-%20Legal%20Framework%20Analysis.pdf)
+### 3. [Ethics in Cybersecurity – Legal Framework Analysis](https://github.com/orbek/portfolio/blob/main/papers/Ethics%20in%20Cybersecurity%20-%20Legal%20Framework%20Analysis.pdf)
 This paper offers a **comparative analysis** of two major international data privacy laws: the **European Union’s GDPR** and **Brazil’s LGPD**. It was developed as part of an **Ethics in Cybersecurity** course at Miami Dade College and demonstrates my ability to critically evaluate legal frameworks in cybersecurity and data protection.
 
 **Highlights:**
@@ -55,7 +56,7 @@ This paper offers a **comparative analysis** of two major international data pri
 - Real-world enforcement cases illustrating practical applications
 - Final reflections on global trends in data protection and privacy
 
-### 4. [Deep Learning – Analyzing the Behavior of an Imitation-Based Agent](https://github.com/orbek/portfolio/blob/main/projects/Deep%20Learning%20-%20Analyzing%20the%20Behavior%20of%20an%20Imitation-Based%20Agent.pdf)
+### 4. [Deep Learning – Analyzing the Behavior of an Imitation-Based Agent](https://github.com/orbek/portfolio/blob/main/papers/Deep%20Learning%20-%20Analyzing%20the%20Behavior%20of%20an%20Imitation-Based%20Agent.pdf)
 This project explores the application of **imitation learning** to develop an AI agent capable of replicating expert gameplay strategies within a simulated ice hockey environment using **SuperTuxKart**.
 
 **Highlights:**
@@ -63,6 +64,15 @@ This project explores the application of **imitation learning** to develop an AI
 - Focused on feature engineering, model training, and fine-tuning (learning rate adjustments, kart type analysis)
 - Achieved significant performance improvements through model architecture refinement and strategic data preparation
 - Demonstrated the effectiveness of deep learning for decision-making in dynamic simulated environments
+
+### 5. [Mitigating Dataset Artifacts Through Fine Tuning and Ensemble-Based Training](https://github.com/orbek/portfolio/blob/main/papers/Mitigating%20Dataset%20Artifacts%20Through%20Fine%20Tuning%20and%20Ensemble-Based%20Training.pdf)
+This paper investigates the robustness of the **ELECTRA-small** transformer model in Natural Language Inference (NLI) tasks. Developed during my **Natural Language Processing** course, the work explores fine-tuning techniques and ensemble-based strategies to address dataset artifacts and improve model generalization.
+
+**Highlights:**
+- Fine-tuned ELECTRA on contrastive and adversarial datasets to expose model weaknesses
+- Developed an ensemble-based training method for better handling of linguistic artifacts
+- Detailed evaluation of model performance using accuracy and F1 scores
+- Insights into improving robustness and reliability of NLI models
 
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
