@@ -83,3 +83,8 @@ Along with my project work, I have completed various certifications and degrees 
 - **[Agile](https://github.com/orbek/portfolio/tree/main/Certificates/Agile)**: Certifications in Agile project management and methodologies.
 
 Each certificate includes details of the issuing institution, the skills covered, and validation information where applicable.
+
+## Resume
+
+You can view my professional resume here:  
+👉 **[View My Resume](https://github.com/orbek/portfolio/blob/main/Certificates/Resume.md)**
