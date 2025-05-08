@@ -38,13 +38,18 @@ This project was developed as part of the selection process for a Disney interns
 - Upload CSV files to train the model and predict results
 - Export processed data for reporting
 
-### 2. [Tutors Track](https://github.com/orbek/Tutors_track)
+### 2. Tutors Track
 **Tutors Track** is a web application built with the **Streamlit** framework, hosted on **Azure Web App**, and connected to an **Azure SQL Server**. The application is designed for internal use, allowing students to track participants in tutoring sessions and manage attendance for classes or general events. It also includes an admin page for managing tutors, class codes, and generating reports.
+
+> **Note:** This is a private repository containing proprietary code developed for internal institutional use.
 
 **Features:**
 - Attendance tracking for tutoring sessions and events
 - Admin dashboard to manage tutors, class codes, and generate reports
+- Microservices architecture using **Azure Functions** to handle database requests, improving speed and reliability
 - Hosted on **Azure Web App** and connected to **Azure SQL Server** for secure, cloud-based data management
+- User authentication and role-based access control
+- Automated reporting and data visualization
 
 ### 3. [Ethics in Cybersecurity – Legal Framework Analysis](https://github.com/orbek/portfolio/blob/main/papers/Ethics%20in%20Cybersecurity%20-%20Legal%20Framework%20Analysis.pdf)
 This paper offers a **comparative analysis** of two major international data privacy laws: the **European Union’s GDPR** and **Brazil’s LGPD**. It was developed as part of an **Ethics in Cybersecurity** course at Miami Dade College and demonstrates my ability to critically evaluate legal frameworks in cybersecurity and data protection.
