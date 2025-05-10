@@ -79,6 +79,15 @@ This paper investigates the robustness of the **ELECTRA-small** transformer mode
 - Detailed evaluation of model performance using accuracy and F1 scores
 - Insights into improving robustness and reliability of NLI models
 
+### 6. [Failure Analysis of Terminal Port Assets in Vila Velha (TVV)](https://github.com/orbek/portfolio/blob/main/papers/Portuguese%20-%20Analise%20de%20Falha%20dos%20Ativos%20do%20Terminal%20Portuario%20de%20Vila%20Velha.pdf)
+This article, written in Portuguese, was my **undergraduate capstone project** in Industrial Engineering. It analyzes the root causes of equipment failures at the Vila Velha Port Terminal and proposes a corrective action plan using quality management tools to increase asset availability and reduce unplanned downtime.
+
+**Highlights:**
+- Practical application of quality tools: Pareto chart, Cause-and-Effect diagram, Stratification
+- Calculation of Key Performance Indicators such as MTBF (Mean Time Between Failures), MTTR (Mean Time To Repair), and AvailabilityI
+- Identification of recurring failure modes in components like joystick and engine
+- Action plan to enhance operational efficiency and reliability.
+
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
 
