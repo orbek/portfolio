@@ -27,6 +27,7 @@ I am a **Database Manager and Report Analyst** currently working at Miami Dade C
 1. **Power BI Dashboards**: Interactive dashboards focusing on academic performance metrics, cohort analysis, and retention trends.
 2. **Python Automation Scripts**: Python projects designed to automate data processing, including scheduled tasks integrated with SQL databases.
 3. **Database Development**: Database solutions created in Azure SQL and AWS RDS, supporting student and nonprofit data tracking.
+4. **Financial Planner App**: Personal finance manager for income, expenses, and bank statement extraction with Google Gemini and Supabase integration.
 
 ## Projects and Papers
 
@@ -84,9 +85,22 @@ This article, written in Portuguese, was my **undergraduate capstone project** i
 
 **Highlights:**
 - Practical application of quality tools: Pareto chart, Cause-and-Effect diagram, Stratification
-- Calculation of Key Performance Indicators such as MTBF (Mean Time Between Failures), MTTR (Mean Time To Repair), and AvailabilityI
+- Calculation of Key Performance Indicators such as MTBF (Mean Time Between Failures), MTTR (Mean Time To Repair), and Availability
 - Identification of recurring failure modes in components like joystick and engine
-- Action plan to enhance operational efficiency and reliability.
+- Action plan to enhance operational efficiency and reliability
+
+### 7. [Financial Planner – Personal Finance Tracker](https://github.com/orbek/financial-planner)
+**Financial Planner** is a personal finance web application built with **Streamlit**. It enables users to manage accounts, track income and expenses, upload PDF bank statements, and visualize their finances through an interactive dashboard. The app leverages **Google’s Gemini Generative AI** to extract transaction data from PDF statements and securely stores information in **Supabase**. User authentication is handled via **Microsoft OAuth**, ensuring data privacy and security.
+
+**Highlights:**
+- Add, edit, and delete accounts and transactions
+- Upload PDF bank statements for automatic transaction extraction using AI Google Gemini
+- Secure authentication via Microsoft OAuth (Azure AD)
+- Real-time dashboard with financial summaries and charts
+- Cloud data storage in Supabase for reliability and access
+- Modular, component-based architecture for maintainability
+- Docker support for easy deployment
+- Step-by-step setup and test harness included in the repository
 
 ## Certifications & Education
 Along with my project work, I have completed various certifications and degrees that demonstrate my dedication to both **business intelligence** and **data science**. You can explore the details of these certificates and diplomas in the following categories:
