@@ -89,7 +89,7 @@ This article, written in Portuguese, was my **undergraduate capstone project** i
 - Identification of recurring failure modes in components like joystick and engine
 - Action plan to enhance operational efficiency and reliability
 
-### 7. [Financial Planner – Personal Finance Tracker](https://github.com/orbek/financial-planner)
+### 7. [Personal Financial Planner](https://github.com/orbek/financial-planner)
 **Financial Planner** is a personal finance web application built with **Streamlit**. It enables users to manage accounts, track income and expenses, upload PDF bank statements, and visualize their finances through an interactive dashboard. The app leverages **Google’s Gemini Generative AI** to extract transaction data from PDF statements and securely stores information in **Supabase**. User authentication is handled via **Microsoft OAuth**, ensuring data privacy and security.
 
 **Highlights:**
