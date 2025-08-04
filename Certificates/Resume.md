@@ -17,6 +17,19 @@ A data science professional with over a decade of experience across various indu
 
 ## Work History
 
+
+### AI Business Analyst  
+**Harvard Maintenance, Downtown Miami, FL**  
+*June 2025 – Current*
+- Optimize internal business processes by leveraging Artificial Intelligence to automate workflows.
+- Identify manual operations and implement AI solutions to improve efficiency and reduce redundancy.
+- Enhance reporting and decision-making through AI-driven insights and predictive modeling.
+- Develop MVP applications to test hypotheses and hand off scalable versions to the IT department.
+- Use tools like Agentic to build intelligent systems that interact with internal data sources.
+- Interview stakeholders and manage expectations to align solutions with business needs.
+- Collaborate with cross-functional teams to align automation projects with ROI objectives.
+- Drive strategic initiatives that reduce operational costs and increase productivity.
+
 ### Adjunct Faculty - Artificial Intelligence  
 **Miami Dade College, ENTEC Department, Miami, FL**  
 *January 2025 - Current*
@@ -28,18 +41,18 @@ A data science professional with over a decade of experience across various indu
 
 ### Database and Report Analyst  
 **Miami Dade College, Miami, FL**  
-*June 2023 - Current*
-- Lead data collection and reporting for the School of Science, ensuring accuracy and timeliness of student data for institutional analysis.
-- Analyze and track cohort performance, reporting on key metrics such as admission rates, retention, graduation, and transfer rates, with a focus on year-over-year improvements as per grant requirements.
-- Use Power BI for data modeling, DAX calculations, and dashboard visualization to provide insights on cohort analysis and trends in admission, retention, and student success.
-- Coordinate the **Summer Bridge Program**: recruit 40+ STEM students each cycle, organize faculty mentors, and track outcomes to improve year-over-year retention.
-- Manage grant purchasing life-cycle—create order requisitions, liaise with vendors, and verify delivery of research supplies; serve on departmental technology-procurement committee to evaluate and prioritize capital equipment.
-- Track student enrollment by ZIP code and high school, enabling targeted marketing efforts to increase admissions in specific areas.
-- Develop dashboards to track student grades and attendance, providing advisors refined insights to enhance student completion and overall success rates.
-- Build reports and present grant progress to stakeholders, aligning with institutional and grant objectives.
-- Develop Python automation scripts, increasing data processing efficiency.
-- Design and maintain SQL databases, conduct data mining with Power Query, and build robust data models to support decision-making.
-- Train staff on data tools and reporting platforms, enhancing data literacy and fostering a data-driven decision-making culture.
+*June 2023 - June 2025*
+- Led data collection and reporting for the School of Science, ensuring accuracy and timeliness of student data for institutional analysis.
+- Analyzed and tracked cohort performance, reporting on key metrics such as admission rates, retention, graduation, and transfer rates, with a focus on year-over-year improvements as per grant requirements.
+- Used Power BI for data modeling, DAX calculations, and dashboard visualization to provide insights on cohort analysis and trends in admission, retention, and student success.
+- Coordinated the **Summer Bridge Program**: recruited 40+ STEM students each cycle, organized faculty mentors, and tracked outcomes to improve year-over-year retention.
+- Managed grant purchasing life-cycle—created order requisitions, liaised with vendors, and verified delivery of research supplies; served on departmental technology-procurement committee to evaluate and prioritize capital equipment.
+- Tracked student enrollment by ZIP code and high school, enabling targeted marketing efforts to increase admissions in specific areas.
+- Developed dashboards to track student grades and attendance, providing advisors refined insights to enhance student completion and overall success rates.
+- Built reports and presented grant progress to stakeholders, aligning with institutional and grant objectives.
+- Developed Python automation scripts, increasing data processing efficiency.
+- Designed and maintained SQL databases, conducted data mining with Power Query, and built robust data models to support decision-making.
+- Trained staff on data tools and reporting platforms, enhancing data literacy and fostering a data-driven decision-making culture.
 
 ### Customer Service Representative (Part Time) – 8 hrs/week  
 **Adrienne Arsht Center, Miami, Florida**  
