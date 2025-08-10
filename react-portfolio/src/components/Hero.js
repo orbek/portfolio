@@ -75,6 +75,13 @@ const Hero = () => {
             Transforming data into actionable insights and driving operational efficiency through AI implementation
           </motion.p>
           
+          <motion.blockquote className="hero-quote" variants={itemVariants}>
+            <p className="quote-text">
+              "You can't improve what you can't measure"
+            </p>
+            <cite className="quote-author">— Peter Drucker</cite>
+          </motion.blockquote>
+          
           <motion.div className="hero-buttons" variants={itemVariants}>
             <a href="#projects" className="btn btn-primary btn-lg">
               <i className="fas fa-rocket"></i>
@@ -142,11 +149,37 @@ const Hero = () => {
         
         .hero-description {
           font-size: 1.25rem;
-          margin-bottom: 3rem;
+          margin-bottom: 2rem;
           color: rgba(255, 255, 255, 0.9);
           max-width: 600px;
           margin-left: auto;
           margin-right: auto;
+        }
+        
+        .hero-quote {
+          margin: 0 auto 3rem;
+          max-width: 500px;
+          padding: 1.5rem;
+          border-left: 4px solid rgba(255, 255, 255, 0.3);
+          background: rgba(255, 255, 255, 0.1);
+          border-radius: 0.75rem;
+          backdrop-filter: blur(10px);
+        }
+        
+        .quote-text {
+          font-size: 1.1rem;
+          font-style: italic;
+          color: rgba(255, 255, 255, 0.95);
+          margin-bottom: 0.75rem;
+          line-height: 1.6;
+        }
+        
+        .quote-author {
+          font-size: 0.9rem;
+          color: rgba(255, 255, 255, 0.8);
+          font-weight: 500;
+          display: block;
+          text-align: right;
         }
         
         .hero-buttons {
@@ -201,6 +234,19 @@ const Hero = () => {
           .hero-buttons {
             flex-direction: column;
             align-items: center;
+          }
+          
+          .hero-quote {
+            padding: 1rem;
+            margin-bottom: 2rem;
+          }
+          
+          .quote-text {
+            font-size: 1rem;
+          }
+          
+          .quote-author {
+            font-size: 0.85rem;
           }
         }
       `}</style>
