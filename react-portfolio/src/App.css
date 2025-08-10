@@ -1,12 +1,12 @@
 /* Global Styles */
 :root {
-  --primary-color: #3b82f6;
-  --secondary-color: #1e40af;
+  --primary-color: #2563eb;
+  --secondary-color: #1d4ed8;
   --accent-color: #f59e0b;
   --text-dark: #1f2937;
   --text-light: #6b7280;
-  --bg-light: #f8fafc;
-  --bg-dark: #1f2937;
+  --bg-light: #f9fafb;
+  --bg-dark: #111827;
   --bg-card: #ffffff;
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);

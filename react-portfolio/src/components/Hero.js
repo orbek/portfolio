@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Typed from 'react-typed';
+import Typed from 'typed.js';
 
 const Hero = () => {
   const containerVariants = {
@@ -48,17 +48,22 @@ const Hero = () => {
           </motion.h1>
           
           <motion.div className="hero-subtitle" variants={itemVariants}>
-            <Typed
-              strings={[
-                'AI Business Analyst',
-                'Data Science Expert',
-                'Machine Learning Engineer',
-                'Business Intelligence Specialist'
-              ]}
-              typeSpeed={50}
-              backSpeed={30}
-              loop
-            />
+            <span ref={(el) => {
+              if (el) {
+                const typed = new Typed(el, {
+                  strings: [
+                    'AI Business Analyst',
+                    'Data Science Expert', 
+                    'Machine Learning Engineer',
+                    'Business Intelligence Specialist'
+                  ],
+                  typeSpeed: 50,
+                  backSpeed: 30,
+                  loop: true
+                });
+                return () => typed.destroy();
+              }
+            }}></span>
           </motion.div>
           
           <motion.p className="hero-description" variants={itemVariants}>
@@ -87,7 +92,7 @@ const Hero = () => {
           min-height: 100vh;
           display: flex;
           align-items: center;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #581c87 100%);
           color: white;
           position: relative;
           overflow: hidden;
@@ -116,10 +121,11 @@ const Hero = () => {
           font-size: 3.5rem;
           font-weight: 800;
           margin-bottom: 1rem;
-          background: linear-gradient(135deg, #ffffff, #e2e8f0);
+          background: linear-gradient(135deg, #ffffff, #f1f5f9);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
+          text-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
         .hero-subtitle {
