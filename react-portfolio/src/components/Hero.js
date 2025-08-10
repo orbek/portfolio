@@ -1,0 +1,200 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import Typed from 'react-typed';
+
+const Hero = () => {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        duration: 0.8,
+        staggerChildren: 0.2
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { y: 30, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: { duration: 0.6 }
+    }
+  };
+
+  return (
+    <section id="home" className="section hero-section">
+      <div className="container">
+        <motion.div 
+          className="hero-content"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <motion.div className="profile-image-container" variants={itemVariants}>
+            <img 
+              src="/assets/images/logo.png" 
+              alt="Carlos Barbosa" 
+              className="profile-image"
+              onError={(e) => {
+                e.target.style.display = 'none';
+              }}
+            />
+          </motion.div>
+          
+          <motion.h1 className="hero-title" variants={itemVariants}>
+            Carlos Barbosa
+          </motion.h1>
+          
+          <motion.div className="hero-subtitle" variants={itemVariants}>
+            <Typed
+              strings={[
+                'AI Business Analyst',
+                'Data Science Expert',
+                'Machine Learning Engineer',
+                'Business Intelligence Specialist'
+              ]}
+              typeSpeed={50}
+              backSpeed={30}
+              loop
+            />
+          </motion.div>
+          
+          <motion.p className="hero-description" variants={itemVariants}>
+            Transforming data into actionable insights and driving operational efficiency through AI implementation
+          </motion.p>
+          
+          <motion.div className="hero-buttons" variants={itemVariants}>
+            <a href="#projects" className="btn btn-primary btn-lg">
+              <i className="fas fa-rocket"></i>
+              View My Work
+            </a>
+            <a href="https://www.linkedin.com/in/09barbosacarlos" target="_blank" rel="noopener noreferrer" className="btn btn-outline btn-lg">
+              <i className="fab fa-linkedin"></i>
+              Let's Connect
+            </a>
+          </motion.div>
+        </motion.div>
+      </div>
+      
+      <div className="hero-background">
+        <div className="hero-pattern"></div>
+      </div>
+      
+      <style jsx>{`
+        .hero-section {
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          color: white;
+          position: relative;
+          overflow: hidden;
+        }
+        
+        .hero-content {
+          text-align: center;
+          z-index: 2;
+          position: relative;
+        }
+        
+        .profile-image-container {
+          margin-bottom: 2rem;
+        }
+        
+        .profile-image {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          border: 4px solid rgba(255, 255, 255, 0.2);
+          box-shadow: var(--shadow-xl);
+          object-fit: cover;
+        }
+        
+        .hero-title {
+          font-size: 3.5rem;
+          font-weight: 800;
+          margin-bottom: 1rem;
+          background: linear-gradient(135deg, #ffffff, #e2e8f0);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+        
+        .hero-subtitle {
+          font-size: 1.5rem;
+          margin-bottom: 1.5rem;
+          color: #e2e8f0;
+          min-height: 2rem;
+        }
+        
+        .hero-description {
+          font-size: 1.25rem;
+          margin-bottom: 3rem;
+          color: rgba(255, 255, 255, 0.9);
+          max-width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        .hero-buttons {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        
+        .hero-background {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 1;
+        }
+        
+        .hero-pattern {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+          animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-10px); }
+        }
+        
+        @media (max-width: 768px) {
+          .hero-title {
+            font-size: 2.5rem;
+          }
+          
+          .hero-subtitle {
+            font-size: 1.25rem;
+          }
+          
+          .hero-description {
+            font-size: 1rem;
+          }
+          
+          .profile-image {
+            width: 120px;
+            height: 120px;
+          }
+          
+          .hero-buttons {
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+      `}</style>
+    </section>
+  );
+};
+
+export default Hero;
