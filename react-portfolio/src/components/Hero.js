@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import Typed from 'typed.js';
 
 const Hero = () => {
+  const typedRef = useRef(null);
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -23,6 +25,24 @@ const Hero = () => {
     }
   };
 
+  useEffect(() => {
+    if (typedRef.current) {
+      const typed = new Typed(typedRef.current, {
+        strings: [
+          'AI Business Analyst',
+          'Data Science Expert', 
+          'Machine Learning Engineer',
+          'Business Intelligence Specialist'
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true
+      });
+
+      return () => typed.destroy();
+    }
+  }, []);
+
   return (
     <section id="home" className="section hero-section">
       <div className="container">
@@ -34,7 +54,7 @@ const Hero = () => {
         >
           <motion.div className="profile-image-container" variants={itemVariants}>
             <img 
-              src="/assets/images/logo.png" 
+              src={`${process.env.PUBLIC_URL}/assets/images/logo.png`}
               alt="Carlos Barbosa" 
               className="profile-image"
               onError={(e) => {
@@ -48,22 +68,7 @@ const Hero = () => {
           </motion.h1>
           
           <motion.div className="hero-subtitle" variants={itemVariants}>
-            <span ref={(el) => {
-              if (el) {
-                const typed = new Typed(el, {
-                  strings: [
-                    'AI Business Analyst',
-                    'Data Science Expert', 
-                    'Machine Learning Engineer',
-                    'Business Intelligence Specialist'
-                  ],
-                  typeSpeed: 50,
-                  backSpeed: 30,
-                  loop: true
-                });
-                return () => typed.destroy();
-              }
-            }}></span>
+            <span ref={typedRef}></span>
           </motion.div>
           
           <motion.p className="hero-description" variants={itemVariants}>
