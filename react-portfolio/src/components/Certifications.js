@@ -28,14 +28,14 @@ const Certifications = () => {
 
   const education = [
     {
-      degree: 'Master of Science',
-      institution: 'University of Texas',
-      year: '2020'
+      degree: 'Master of Science: Data Science',
+      institution: 'University of Texas at Austin',
+      year: '2024'
     },
     {
-      degree: 'Bachelor in Industrial Engineering',
+      degree: 'Bachelor of Science: Industrial Engineering',
       institution: 'FAESA',
-      year: '2018'
+      year: '2016'
     }
   ];
 
