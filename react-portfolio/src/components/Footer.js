@@ -43,7 +43,7 @@ const Footer = () => {
           >
             <h3 className="footer-title">Carlos Barbosa</h3>
             <p className="footer-description">
-              AI Business Analyst & Data Science Expert specializing in transforming data into actionable insights.
+              AI Solution Architect at Harvard and founder of Kojo Analytics. I analyze processes, design solutions, prototype for feedback, and implement with stakeholder buy-in.
             </p>
             <div className="social-links">
               {socialLinks.map((link, index) => (
@@ -125,7 +125,7 @@ const Footer = () => {
           >
             <h4 className="footer-subtitle">Get In Touch</h4>
             <p className="contact-info">
-              Open to new opportunities in AI implementation, data science consulting, and educational roles.
+              Open to engagements in AI solution architecture, process optimization, data science consulting, and prototyping.
             </p>
             <a 
               href="https://www.linkedin.com/in/09barbosacarlos" 
@@ -136,6 +136,17 @@ const Footer = () => {
               <i className="fab fa-linkedin"></i>
               Let's Connect
             </a>
+            <div style={{ marginTop: '0.75rem' }}>
+              <a 
+                href="https://kojoanalytics.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="btn btn-outline btn-sm"
+              >
+                <i className="fas fa-globe"></i>
+                Visit Kojo Analytics
+              </a>
+            </div>
           </motion.div>
         </div>
 

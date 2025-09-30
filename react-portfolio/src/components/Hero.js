@@ -29,10 +29,10 @@ const Hero = () => {
     if (typedRef.current) {
       const typed = new Typed(typedRef.current, {
         strings: [
-          'AI Business Analyst',
-          'Data Science Expert', 
-          'Machine Learning Engineer',
-          'Business Intelligence Specialist'
+          'AI Solution Architect at Harvard',
+          'Founder of Kojo Analytics',
+          'Process Improvement & Prototyping',
+          'Stakeholder Engagement & Delivery'
         ],
         typeSpeed: 50,
         backSpeed: 30,
@@ -72,7 +72,7 @@ const Hero = () => {
           </motion.div>
           
           <motion.p className="hero-description" variants={itemVariants}>
-            Transforming data into actionable insights and driving operational efficiency through AI implementation
+            AI Solution Architect at Harvard. I analyze processes, identify inefficiencies, design solutions, prototype for feedback, and implement with stakeholder buy-in. Founder of Kojo Analytics (kojoanalytics.com).
           </motion.p>
           
           <motion.blockquote className="hero-quote" variants={itemVariants}>

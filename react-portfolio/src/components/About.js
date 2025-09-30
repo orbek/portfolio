@@ -52,7 +52,7 @@ const About = () => {
             About Me
           </motion.h2>
           <motion.p className="section-subtitle" variants={itemVariants}>
-            AI Business Analyst passionate about transforming data into actionable insights
+            AI Solution Architect at Harvard | Founder of Kojo Analytics
           </motion.p>
         </motion.div>
         
@@ -65,10 +65,10 @@ const About = () => {
           <div className="about-grid">
             <motion.div className="about-text" variants={itemVariants}>
               <p className="lead">
-                I am an <strong>AI Business Analyst</strong> currently working at Harvard Maintenance, where I focus on improving internal processes through artificial intelligence implementation. My role involves identifying manual processes that can be enhanced, interviewing process owners, gathering requirements, prototyping solutions, and evaluating AI implementations to drive operational efficiency.
+                I am an <strong>AI Solution Architect</strong> at Harvard, responsible for understanding internal processes, identifying inefficiencies, proposing solutions, prototyping to collect stakeholder feedback, and implementing with stakeholder buy-in and user acceptance.
               </p>
               <p>
-                I also serve as an <strong>Adjunct Faculty</strong> member at Miami Dade College, teaching classes in Intro to Artificial Intelligence and Machine Learning. Previously, I worked as a Database Manager and Report Analyst at Miami Dade College, overseeing data analysis and reporting for the School of Science.
+                I’m also the founder of <strong>Kojo Analytics</strong> (<a href="https://kojoanalytics.com" target="_blank" rel="noopener noreferrer">kojoanalytics.com</a>), where I deliver AI-powered data solutions and consulting, from discovery and requirements through prototyping, validation, and implementation.
               </p>
               
               <div className="skills-section">
