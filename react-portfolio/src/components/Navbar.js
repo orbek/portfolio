@@ -20,15 +20,18 @@ const Navbar = () => {
     { href: '#about', label: 'About' },
     { href: '#projects', label: 'Projects' },
     { href: '#certifications', label: 'Certifications' },
-    { href: '#contact', label: 'Contact' }
+    { href: '#contact', label: 'Contact' },
+    { href: '#/blog', label: 'Blog' }
   ];
 
   const handleNavClick = (href) => {
     setIsOpen(false);
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    if (href.startsWith('#/')) {
+      window.location.hash = href.substring(1);
+      return;
     }
+    const element = document.querySelector(href);
+    if (element) element.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (

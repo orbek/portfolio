@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "slug": "welcome-to-my-blog",
+      "title": "Welcome to My Personal Blog",
+      "date": "2025-08-10",
+      "tags": ["personal", "intro"],
+      "excerpt": "Why I’m starting a personal blog and what you can expect to read here."
+    }
+  ]
+}
+
+
