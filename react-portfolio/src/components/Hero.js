@@ -91,6 +91,10 @@ const Hero = () => {
               <i className="fab fa-linkedin"></i>
               Let's Connect
             </a>
+            <a href="https://kojoanalytics.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
+              <i className="fas fa-globe"></i>
+              Visit Kojo Analytics
+            </a>
           </motion.div>
         </motion.div>
       </div>
