@@ -56,6 +56,14 @@ const Projects = () => {
       icon: 'fas fa-shield-alt',
       link: 'https://github.com/orbek/portfolio/blob/main/papers/Ethics%20in%20Cybersecurity%20-%20Legal%20Framework%20Analysis.pdf',
       type: 'paper'
+    },
+    {
+      title: 'PNL Report Agent',
+      description: 'AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.',
+      tags: ['Python', 'OpenAI GPT-4', 'LangGraph', 'ChromaDB', 'RAG'],
+      icon: 'fas fa-chart-line',
+      link: 'https://github.com/orbek/PNL-Report-Agent',
+      type: 'github'
     }
   ];
 
