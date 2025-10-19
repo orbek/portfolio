@@ -122,12 +122,12 @@ description: AI Business Analyst specializing in data science, machine learning,
         </div>
       </div>
       
-      <!-- Tutors Track -->
+      <!-- STEM PACTS App -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card project-card h-100">
           <div class="card-header">
             <h5 class="card-title mb-0">
-              <i class="fas fa-users me-2"></i>Tutors Track
+              <i class="fas fa-users me-2"></i>STEM PACTS App
             </h5>
           </div>
           <div class="card-body">

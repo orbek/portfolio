@@ -18,7 +18,7 @@ const Projects = () => {
       type: 'github'
     },
     {
-      title: 'Tutors Track',
+      title: 'STEM PACTS App',
       description: 'Web application for tracking tutoring sessions and managing attendance, featuring microservices architecture with Azure Functions and secure cloud-based data management.',
       tags: ['Azure', 'Streamlit', 'SQL Server', 'Microservices'],
       icon: 'fas fa-users',
