@@ -137,7 +137,7 @@ description: AI Business Analyst specializing in data science, machine learning,
               <span class="project-tag">SQL Server</span>
             </div>
             <p class="card-text">
-              Web application for tracking tutoring sessions and managing attendance, featuring microservices architecture with Azure Functions and secure cloud-based data management.
+              Complete grant management system for tracking all grant metrics and objectives. A comprehensive one-place solution for grant management featuring microservices architecture with Azure Functions and secure cloud-based data management.
             </p>
             <span class="btn btn-outline-secondary disabled">
               <i class="fas fa-lock me-2"></i>Private Repository

@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       title: 'STEM PACTS App',
-      description: 'Web application for tracking tutoring sessions and managing attendance, featuring microservices architecture with Azure Functions and secure cloud-based data management.',
+      description: 'Complete grant management system for tracking all grant metrics and objectives. A comprehensive one-place solution for grant management featuring microservices architecture with Azure Functions and secure cloud-based data management.',
       tags: ['Azure', 'Streamlit', 'SQL Server', 'Microservices'],
       icon: 'fas fa-users',
       link: null,
