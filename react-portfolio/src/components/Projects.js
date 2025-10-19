@@ -10,19 +10,11 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Disney Internship Project',
-      description: 'Streamlit application with Logistic Regression to predict customer purchase behavior, helping marketing teams optimize campaigns and increase revenue.',
-      tags: ['Streamlit', 'Machine Learning', 'Python', 'Logistic Regression'],
-      icon: 'fas fa-magic',
-      link: 'https://github.com/orbek/DisneyIntership',
-      type: 'github'
-    },
-    {
-      title: 'Personal Financial Planner',
-      description: 'AI-powered personal finance manager with PDF bank statement processing using Google Gemini AI, OAuth authentication, and real-time dashboard visualization.',
-      tags: ['Streamlit', 'Google Gemini AI', 'Supabase', 'OAuth', 'PDF Processing'],
-      icon: 'fas fa-calculator',
-      link: 'https://github.com/orbek/financial-planner',
+      title: 'PNL Report Agent',
+      description: 'AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.',
+      tags: ['Python', 'OpenAI GPT-4', 'LangGraph', 'ChromaDB', 'RAG'],
+      icon: 'fas fa-chart-line',
+      link: 'https://github.com/orbek/PNL-Report-Agent',
       type: 'github'
     },
     {
@@ -32,6 +24,14 @@ const Projects = () => {
       icon: 'fas fa-users',
       link: null,
       type: 'private'
+    },
+    {
+      title: 'Personal Financial Planner',
+      description: 'AI-powered personal finance manager with PDF bank statement processing using Google Gemini AI, OAuth authentication, and real-time dashboard visualization.',
+      tags: ['Streamlit', 'Google Gemini AI', 'Supabase', 'OAuth', 'PDF Processing'],
+      icon: 'fas fa-calculator',
+      link: 'https://github.com/orbek/financial-planner',
+      type: 'github'
     },
     {
       title: 'Deep Learning Research',
@@ -58,11 +58,11 @@ const Projects = () => {
       type: 'paper'
     },
     {
-      title: 'PNL Report Agent',
-      description: 'AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.',
-      tags: ['Python', 'OpenAI GPT-4', 'LangGraph', 'ChromaDB', 'RAG'],
-      icon: 'fas fa-chart-line',
-      link: 'https://github.com/orbek/PNL-Report-Agent',
+      title: 'Disney Internship Project',
+      description: 'Streamlit application with Logistic Regression to predict customer purchase behavior, helping marketing teams optimize campaigns and increase revenue.',
+      tags: ['Streamlit', 'Machine Learning', 'Python', 'Logistic Regression'],
+      icon: 'fas fa-magic',
+      link: 'https://github.com/orbek/DisneyIntership',
       type: 'github'
     }
   ];

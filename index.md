@@ -96,24 +96,26 @@ description: AI Business Analyst specializing in data science, machine learning,
     </div>
     
     <div class="row">
-      <!-- Disney Internship Project -->
+      <!-- PNL Report Agent -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card project-card h-100">
           <div class="card-header">
             <h5 class="card-title mb-0">
-              <i class="fas fa-magic me-2"></i>Disney Internship Project
+              <i class="fas fa-chart-line me-2"></i>PNL Report Agent
             </h5>
           </div>
           <div class="card-body">
             <div class="project-tags">
-              <span class="project-tag">Streamlit</span>
-              <span class="project-tag">Machine Learning</span>
               <span class="project-tag">Python</span>
+              <span class="project-tag">OpenAI GPT-4</span>
+              <span class="project-tag">LangGraph</span>
+              <span class="project-tag">ChromaDB</span>
+              <span class="project-tag">RAG</span>
             </div>
             <p class="card-text">
-              Developed a Streamlit application with Logistic Regression to predict customer purchase behavior, helping marketing teams optimize campaigns and increase revenue.
+              AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.
             </p>
-            <a href="https://github.com/orbek/DisneyIntership" target="_blank" class="btn btn-primary">
+            <a href="https://github.com/orbek/PNL-Report-Agent" target="_blank" class="btn btn-primary">
               <i class="fab fa-github me-2"></i>View Project
             </a>
           </div>
@@ -240,26 +242,24 @@ description: AI Business Analyst specializing in data science, machine learning,
         </div>
       </div>
       
-      <!-- PNL Report Agent -->
+      <!-- Disney Internship Project -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card project-card h-100">
           <div class="card-header">
             <h5 class="card-title mb-0">
-              <i class="fas fa-chart-line me-2"></i>PNL Report Agent
+              <i class="fas fa-magic me-2"></i>Disney Internship Project
             </h5>
           </div>
           <div class="card-body">
             <div class="project-tags">
+              <span class="project-tag">Streamlit</span>
+              <span class="project-tag">Machine Learning</span>
               <span class="project-tag">Python</span>
-              <span class="project-tag">OpenAI GPT-4</span>
-              <span class="project-tag">LangGraph</span>
-              <span class="project-tag">ChromaDB</span>
-              <span class="project-tag">RAG</span>
             </div>
             <p class="card-text">
-              AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.
+              Developed a Streamlit application with Logistic Regression to predict customer purchase behavior, helping marketing teams optimize campaigns and increase revenue.
             </p>
-            <a href="https://github.com/orbek/PNL-Report-Agent" target="_blank" class="btn btn-primary">
+            <a href="https://github.com/orbek/DisneyIntership" target="_blank" class="btn btn-primary">
               <i class="fab fa-github me-2"></i>View Project
             </a>
           </div>
