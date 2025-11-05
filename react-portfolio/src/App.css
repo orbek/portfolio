@@ -16,6 +16,22 @@
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Dark Mode Variables */
+.dark-mode {
+  --primary-color: #3b82f6;
+  --secondary-color: #2563eb;
+  --accent-color: #fbbf24;
+  --text-dark: #f3f4f6;
+  --text-light: #d1d5db;
+  --bg-light: #111827;
+  --bg-dark: #030712;
+  --bg-card: #1f2937;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +51,7 @@ body {
   line-height: 1.6;
   color: var(--text-dark);
   background-color: var(--bg-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .App {
@@ -58,6 +75,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-light {
+  background-color: var(--bg-card);
+}
+
+.dark-mode .section-dark {
+  background-color: var(--bg-dark);
+}
+
+.dark-mode .section-light {
   background-color: var(--bg-card);
 }
 
@@ -168,6 +193,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--shadow-xl);
 }
 
+.dark-mode .card {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .card-header {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: white;
@@ -263,6 +292,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   font-size: 0.875rem;
   font-weight: 500;
+}
+
+.dark-mode .project-tag {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--text-light);
+  border: 1px solid rgba(59, 130, 246, 0.3);
 }
 
 /* Skill Pills */
