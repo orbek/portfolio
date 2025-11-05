@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -80,6 +81,8 @@ const Navbar = () => {
                 </motion.a>
               ))}
             </div>
+
+            <ThemeToggle />
           </div>
         </div>
       </motion.nav>
@@ -107,6 +110,7 @@ const Navbar = () => {
           justify-content: space-between;
           align-items: center;
           padding: 1rem 0;
+          gap: 2rem;
         }
 
         .nav-brand {
@@ -161,6 +165,8 @@ const Navbar = () => {
         .nav-menu {
           display: flex;
           gap: 2rem;
+          flex: 1;
+          justify-content: center;
         }
 
         .nav-link {
