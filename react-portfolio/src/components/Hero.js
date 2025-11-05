@@ -29,7 +29,7 @@ const Hero = () => {
     if (typedRef.current) {
       const typed = new Typed(typedRef.current, {
         strings: [
-          'AI Solution Architect at Harvard',
+          'AI Solutions Architect at Harvard',
           'Founder of Kojo Analytics',
           'Process Improvement & Prototyping',
           'Stakeholder Engagement & Delivery'
@@ -72,7 +72,7 @@ const Hero = () => {
           </motion.div>
           
           <motion.p className="hero-description" variants={itemVariants}>
-            AI Solution Architect at Harvard. I analyze processes, identify inefficiencies, design solutions, prototype for feedback, and implement with stakeholder buy-in. Founder of Kojo Analytics (kojoanalytics.com).
+            AI Solutions Architect at Harvard. I analyze processes, identify inefficiencies, design solutions, prototype for feedback, and implement with stakeholder buy-in. Founder of Kojo Analytics (kojoanalytics.com).
           </motion.p>
           
           <motion.blockquote className="hero-quote" variants={itemVariants}>

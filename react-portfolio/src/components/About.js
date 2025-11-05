@@ -52,7 +52,7 @@ const About = () => {
             About Me
           </motion.h2>
           <motion.p className="section-subtitle" variants={itemVariants}>
-            AI Solution Architect at Harvard | Founder of Kojo Analytics
+            AI Solutions Architect at Harvard | Founder of Kojo Analytics
           </motion.p>
         </motion.div>
         
@@ -65,7 +65,7 @@ const About = () => {
           <div className="about-grid">
             <motion.div className="about-text" variants={itemVariants}>
               <p className="lead">
-                I am an <strong>AI Solution Architect</strong> at Harvard, responsible for understanding internal processes, identifying inefficiencies, proposing solutions, prototyping to collect stakeholder feedback, and implementing with stakeholder buy-in and user acceptance.
+                I am an <strong>AI Solutions Architect</strong> at Harvard, responsible for understanding internal processes, identifying inefficiencies, proposing solutions, prototyping to collect stakeholder feedback, and implementing with stakeholder buy-in and user acceptance.
               </p>
               <p>
                 I’m also the founder of <strong>Kojo Analytics</strong> (<a href="https://kojoanalytics.com" target="_blank" rel="noopener noreferrer">kojoanalytics.com</a>), where I deliver AI-powered data solutions and consulting, from discovery and requirements through prototyping, validation, and implementation.
