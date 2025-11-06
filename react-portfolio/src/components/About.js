@@ -110,7 +110,7 @@ const About = () => {
                 I design and implement AI solutions that solve real business problems at Harvard. My work spans the full lifecycle: analyzing processes, architecting solutions, building prototypes for stakeholder validation, and delivering production systems with strong user adoption.
               </p>
               <p>
-                I’m also the founder of <strong>Kojo Analytics</strong> (<a href="https://kojoanalytics.com" target="_blank" rel="noopener noreferrer">kojoanalytics.com</a>), where I deliver AI-powered data solutions and consulting, from discovery and requirements through prototyping, validation, and implementation.
+                I'm also the founder of <strong><a href="https://kojoanalytics.com" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', textDecoration: 'underline'}}>Kojo Analytics</a></strong>, where I deliver AI-powered data solutions and consulting, from discovery and requirements through prototyping, validation, and implementation.
               </p>
               
               <div className="skills-section">

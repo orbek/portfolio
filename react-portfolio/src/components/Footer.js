@@ -43,7 +43,7 @@ const Footer = () => {
           >
             <h3 className="footer-title">Carlos Barbosa</h3>
             <p className="footer-description">
-              AI Solutions Architect at Harvard and founder of Kojo Analytics. I analyze processes, design solutions, prototype for feedback, and implement with stakeholder buy-in.
+              AI Solutions Architect at Harvard and founder of <a href="https://kojoanalytics.com" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', textDecoration: 'underline'}}>Kojo Analytics</a>. I analyze processes, design solutions, prototype for feedback, and implement with stakeholder buy-in.
             </p>
             <div className="social-links">
               {socialLinks.map((link, index) => (

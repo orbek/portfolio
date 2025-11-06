@@ -72,7 +72,7 @@ const Hero = () => {
           </motion.div>
           
           <motion.p className="hero-description" variants={itemVariants}>
-            AI Solutions Architect at Harvard. I analyze processes, identify inefficiencies, design solutions, prototype for feedback, and implement with stakeholder buy-in. Founder of Kojo Analytics (kojoanalytics.com).
+            AI Solutions Architect at Harvard. I analyze processes, identify inefficiencies, design solutions, prototype for feedback, and implement with stakeholder buy-in. Founder of <a href="https://kojoanalytics.com" target="_blank" rel="noopener noreferrer" style={{color: 'inherit', textDecoration: 'underline'}}>Kojo Analytics</a>.
           </motion.p>
           
           <motion.blockquote className="hero-quote" variants={itemVariants}>
