@@ -15,7 +15,7 @@ Welcome to my portfolio repository, where I showcase my work across various prog
 Each folder includes detailed documentation for the respective projects, providing context on the goals and methodologies used.
 
 ## About Me
-I am an **AI Business Analyst** currently working at Harvard Maintenance, where I focus on improving internal processes through artificial intelligence implementation. My role involves identifying manual processes that can be enhanced, interviewing process owners, gathering requirements, prototyping solutions, and evaluating AI implementations to drive operational efficiency. I also serve as an **Adjunct Faculty** member at Miami Dade College, teaching classes in Intro to Artificial Intelligence and Machine Learning. 
+I am an **AI Solutions Architect** currently working at Harvard Maintenance, where I focus on improving internal processes through artificial intelligence implementation. My role involves identifying manual processes that can be enhanced, interviewing process owners, gathering requirements, prototyping solutions, and evaluating AI implementations to drive operational efficiency. I also serve as an **Adjunct Faculty** member at Miami Dade College, teaching classes in Intro to Artificial Intelligence and Machine Learning. 
 
 Previously, I worked as a Database Manager and Report Analyst at Miami Dade College, overseeing data analysis and reporting for the School of Science. I have experience designing and maintaining SQL databases, automating data processes with Python and Power Automate, and creating Power BI dashboards for decision-making. Additionally, I work with nonprofit organizations like the Belafonte Tacolcy Center to enhance data-driven strategies for client outreach and grant effectiveness.
 

@@ -1,7 +1,7 @@
 ---
 layout: modern
 title: Carlos Barbosa - Data Science & Analytics Portfolio
-description: AI Business Analyst specializing in data science, machine learning, and business intelligence solutions
+description: AI Solutions Architect specializing in data science, machine learning, and business intelligence solutions
 ---
 
 <!-- About Section -->
@@ -10,7 +10,7 @@ description: AI Business Analyst specializing in data science, machine learning,
     <div class="section-header">
       <h2 class="section-title">About Me</h2>
       <p class="section-subtitle">
-        AI Business Analyst passionate about transforming data into actionable insights
+        AI Solutions Architect passionate about transforming data into actionable insights
       </p>
     </div>
     
@@ -18,7 +18,7 @@ description: AI Business Analyst specializing in data science, machine learning,
       <div class="col-lg-8">
         <div class="mb-4">
           <p class="lead">
-            I am an <strong>AI Business Analyst</strong> currently working at Harvard Maintenance, where I focus on improving internal processes through artificial intelligence implementation. My role involves identifying manual processes that can be enhanced, interviewing process owners, gathering requirements, prototyping solutions, and evaluating AI implementations to drive operational efficiency.
+            I am an <strong>AI Solutions Architect</strong> currently working at Harvard Maintenance, where I focus on improving internal processes through artificial intelligence implementation. My role involves identifying manual processes that can be enhanced, interviewing process owners, gathering requirements, prototyping solutions, and evaluating AI implementations to drive operational efficiency.
           </p>
           <p>
             I also serve as an <strong>Adjunct Faculty</strong> member at Miami Dade College, teaching classes in Intro to Artificial Intelligence and Machine Learning. Previously, I worked as a Database Manager and Report Analyst at Miami Dade College, overseeing data analysis and reporting for the School of Science.

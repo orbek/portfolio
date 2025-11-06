@@ -18,7 +18,7 @@ A data science professional with over a decade of experience across various indu
 ## Work History
 
 
-### AI Business Analyst  
+### AI Solutions Architect  
 **Harvard Maintenance, Downtown Miami, FL**  
 *June 2025 – Current*
 - Optimize internal business processes by leveraging Artificial Intelligence to automate workflows.
