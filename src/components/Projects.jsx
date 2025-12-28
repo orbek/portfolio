@@ -8,7 +8,7 @@ const Projects = () => {
             description: 'Level 4 adaptive trading system with 6 specialized AI agents orchestrated via LangGraph. Features CAPM-based risk management, GPT-4 sentiment analysis, 15+ guardrails, Bayesian parameter optimization, and market regime detection for swing trading US stocks.',
             tags: ['Python', 'LangGraph', 'OpenAI GPT-4', 'Alpaca API', 'Azure', 'React'],
             image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            github: 'https://github.com/orbek/portfolio/blob/main/_backup/Projects/README-tradingagent.md',
+            github: 'https://github.com/orbek/portfolio/tree/main/_backup/Projects/Autonomoues%20Trading%20Agent',
             demo: 'https://agenttrading.azurewebsites.net',
         },
         {
@@ -32,7 +32,7 @@ const Projects = () => {
             description: 'Full-stack CRM for Belafonte TACOLCY Center nonprofit. Features client intake with tablet kiosk mode, CANS assessments, FNSP eligibility, donor management, and real-time analytics dashboard with HIPAA-compliant audit logging.',
             tags: ['React', 'Azure Functions', 'Python', 'SQL Server', 'Docker'],
             image: '/assets/images/tacolcy-logo.png',
-            github: '#',
+            github: 'https://github.com/orbek/portfolio/tree/main/_backup/Projects/TACOLCY%20CRM',
             demo: '#',
         },
         {
