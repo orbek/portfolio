@@ -1,59 +1,63 @@
 import { motion } from 'framer-motion';
-import { Brain, Database, Cloud, Cog, GraduationCap, Award, Briefcase, FolderKanban } from 'lucide-react';
+import { Brain, Database, Cloud, Code, GraduationCap, Award, Briefcase, FolderKanban } from 'lucide-react';
 
 const About = () => {
     const skillCategories = [
         {
-            title: 'AI & Machine Learning',
+            title: 'Machine Learning & Deep Learning',
             icon: <Brain className="w-6 h-6" />,
-            description: 'Building intelligent systems that learn and adapt',
+            description: 'Building and deploying production ML systems',
             skills: [
-                { name: 'Machine Learning', level: 'Advanced' },
-                { name: 'LLM Integration', level: 'Advanced' },
-                { name: 'AI Solutions Architecture', level: 'Expert' },
-                { name: 'Prompt Engineering', level: 'Advanced' }
+                { name: 'PyTorch / TensorFlow', level: 'Advanced' },
+                { name: 'Scikit-learn', level: 'Expert' },
+                { name: 'Deep Learning (CNNs, RNNs, Transformers)', level: 'Advanced' },
+                { name: 'NLP / Text Classification', level: 'Advanced' },
+                { name: 'Computer Vision', level: 'Intermediate' }
             ]
         },
         {
-            title: 'Data Engineering & Analytics',
+            title: 'LLMs & AI Engineering',
+            icon: <Code className="w-6 h-6" />,
+            description: 'Developing intelligent AI-powered applications',
+            skills: [
+                { name: 'LangChain / LangGraph', level: 'Expert' },
+                { name: 'OpenAI API / GPT-4', level: 'Expert' },
+                { name: 'RAG Systems', level: 'Advanced' },
+                { name: 'Multi-Agent Architectures', level: 'Advanced' },
+                { name: 'Prompt Engineering', level: 'Expert' }
+            ]
+        },
+        {
+            title: 'Data Science & Analytics',
             icon: <Database className="w-6 h-6" />,
-            description: 'Transforming raw data into actionable insights',
+            description: 'Extracting insights from complex datasets',
             skills: [
-                { name: 'Python', level: 'Advanced' },
-                { name: 'SQL', level: 'Expert' },
-                { name: 'Power BI', level: 'Advanced' },
-                { name: 'Tableau', level: 'Intermediate' }
+                { name: 'Python (Pandas, NumPy)', level: 'Expert' },
+                { name: 'SQL / Database Design', level: 'Expert' },
+                { name: 'Statistical Analysis', level: 'Advanced' },
+                { name: 'Data Visualization (Power BI, Matplotlib)', level: 'Advanced' },
+                { name: 'Feature Engineering', level: 'Advanced' }
             ]
         },
         {
-            title: 'Cloud & Infrastructure',
+            title: 'MLOps & Cloud Infrastructure',
             icon: <Cloud className="w-6 h-6" />,
-            description: 'Scalable, cloud-native solutions',
+            description: 'Deploying and scaling ML systems in production',
             skills: [
-                { name: 'Azure SQL', level: 'Advanced' },
-                { name: 'AWS RDS', level: 'Intermediate' },
-                { name: 'Power Automate', level: 'Advanced' },
-                { name: 'API Integration', level: 'Advanced' }
-            ]
-        },
-        {
-            title: 'Product & Process',
-            icon: <Cog className="w-6 h-6" />,
-            description: 'Delivering solutions that drive business value',
-            skills: [
-                { name: 'Process Optimization', level: 'Expert' },
-                { name: 'Requirements Gathering', level: 'Expert' },
-                { name: 'Stakeholder Management', level: 'Advanced' },
-                { name: 'Agile/Scrum', level: 'Advanced' }
+                { name: 'Azure (Functions, SQL, Storage)', level: 'Advanced' },
+                { name: 'Docker / Containerization', level: 'Advanced' },
+                { name: 'CI/CD Pipelines', level: 'Advanced' },
+                { name: 'REST APIs / FastAPI', level: 'Advanced' },
+                { name: 'Model Deployment & Monitoring', level: 'Intermediate' }
             ]
         }
     ];
 
     const stats = [
         { number: '7+', label: 'Years Experience', icon: <Briefcase className="w-5 h-5" /> },
-        { number: '15+', label: 'Projects', icon: <FolderKanban className="w-5 h-5" /> },
+        { number: '15+', label: 'ML Projects', icon: <FolderKanban className="w-5 h-5" /> },
         { number: '20+', label: 'Certifications', icon: <Award className="w-5 h-5" /> },
-        { number: '2', label: 'Degrees', icon: <GraduationCap className="w-5 h-5" /> }
+        { number: 'M.S.', label: 'Data Science', icon: <GraduationCap className="w-5 h-5" /> }
     ];
 
     const getLevelColor = (level) => {
@@ -82,10 +86,10 @@ const About = () => {
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">About Me</h2>
                     <div className="w-20 h-1 bg-primary-500 mx-auto rounded-full mb-8" />
                     <p className="text-slate-300 text-lg leading-relaxed mb-6">
-                        I design and implement AI solutions that solve real business problems at Harvard. My work spans the full lifecycle: analyzing processes, architecting solutions, building prototypes for stakeholder validation, and delivering production systems with strong user adoption.
+                        I'm a <strong className="text-white">Machine Learning Engineer</strong> and <strong className="text-white">Data Scientist</strong> with a M.S. in Data Science from UT Austin. At Harvard, I architect and deploy AI solutions that automate workflows, extract insights from data, and deliver measurable business impact.
                     </p>
                     <p className="text-slate-400 text-lg leading-relaxed mb-6">
-                        I'm also the founder of{' '}
+                        My expertise spans the full ML lifecycle: from exploratory analysis and feature engineering, through model development and validation, to production deployment with LLMs, multi-agent systems, and RAG architectures. I'm also the founder of{' '}
                         <a
                             href="https://kojoanalytics.com"
                             target="_blank"
@@ -93,10 +97,10 @@ const About = () => {
                             className="text-primary-400 hover:text-primary-300 underline underline-offset-2"
                         >
                             Kojo Analytics
-                        </a>, where I deliver AI-powered data solutions and consulting, from discovery and requirements through prototyping, validation, and implementation.
+                        </a>.
                     </p>
                     <p className="text-slate-400 text-lg leading-relaxed">
-                        I also serve as an <strong className="text-slate-300">Adjunct Faculty</strong> member at Miami Dade College, teaching classes in Intro to Artificial Intelligence and Machine Learning.
+                        I also serve as <strong className="text-slate-300">Adjunct Faculty</strong> at Miami Dade College, teaching Intro to Artificial Intelligence and Machine Learning courses.
                     </p>
                 </motion.div>
 
