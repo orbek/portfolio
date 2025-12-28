@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "slug": "the-hidden-cost-of-broken-data",
+      "title": "The Hidden Cost of Broken Data: Why Your AI Dreams Are Dying in Excel Spreadsheets",
+      "date": "2025-10-07",
+      "tags": ["data", "governance", "ai", "ownership"],
+      "excerpt": "AI doesn’t fix bad data—it amplifies it. The difference between organizations that innovate and those that stall often comes down to one thing: data ownership."
+    }
+  ]
+}
+
+
