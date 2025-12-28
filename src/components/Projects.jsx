@@ -8,7 +8,7 @@ const Projects = () => {
             description: 'Level 4 adaptive trading system with 6 specialized AI agents orchestrated via LangGraph. Features CAPM-based risk management, GPT-4 sentiment analysis, 15+ guardrails, Bayesian parameter optimization, and market regime detection for swing trading US stocks.',
             tags: ['Python', 'LangGraph', 'OpenAI GPT-4', 'Alpaca API', 'Azure', 'React'],
             image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            github: '#',
+            github: 'https://github.com/orbek/portfolio/blob/main/_backup/Projects/README-tradingagent.md',
             demo: 'https://agenttrading.azurewebsites.net',
         },
         {
@@ -40,7 +40,7 @@ const Projects = () => {
             description: 'Research on imitation-based AI agents in simulated environments, developing multiple deep learning models for expert gameplay strategy replication.',
             tags: ['Deep Learning', 'Imitation Learning', 'SuperTuxKart'],
             image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            github: 'https://github.com/orbek/portfolio/blob/main/papers/Deep%20Learning%20-%20Analyzing%20the%20Behavior%20of%20an%20Imitation-Based%20Agent.pdf',
+            github: 'https://github.com/orbek/portfolio/blob/main/_backup/papers/Deep%20Learning%20-%20Analyzing%20the%20Behavior%20of%20an%20Imitation-Based%20Agent.pdf',
             demo: '#',
         },
         {
@@ -48,7 +48,7 @@ const Projects = () => {
             description: 'Investigation of ELECTRA-small transformer model robustness in NLI tasks, developing ensemble-based training methods to mitigate dataset artifacts.',
             tags: ['ELECTRA', 'NLP', 'Ensemble Learning'],
             image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            github: 'https://github.com/orbek/portfolio/blob/main/papers/Mitigating%20Dataset%20Artifacts%20Through%20Fine%20Tuning%20and%20Ensemble-Based%20Training.pdf',
+            github: 'https://github.com/orbek/portfolio/blob/main/_backup/papers/Mitigating%20Dataset%20Artifacts%20Through%20Fine%20Tuning%20and%20Ensemble-Based%20Training.pdf',
             demo: '#',
         },
         {
