@@ -5,11 +5,11 @@ const Projects = () => {
     const projects = [
         {
             title: 'Autonomous Trading Agent',
-            description: 'Level 4 adaptive trading system with 6 specialized AI agents orchestrated via LangGraph. Features CAPM-based risk management, GPT-4 sentiment analysis, 15+ guardrails, Bayesian parameter optimization, and market regime detection for swing trading US stocks.',
-            tags: ['Python', 'LangGraph', 'OpenAI GPT-4', 'Alpaca API', 'Azure', 'React'],
+            description: 'Fully autonomous Level 4 adaptive trading system with 6 specialized AI agents orchestrated via LangGraph. Features CAPM-based risk management, GPT-4 sentiment analysis, 15+ guardrails, Bayesian parameter optimization, and market regime detection. Uses GPT-5-nano to analyze historical trading results and dynamically adjust parameters. Trades US stocks and cryptocurrency 24/7.',
+            tags: ['Python', 'LangGraph', 'OpenAI GPT-5-nano', 'Alpaca API', 'Azure', 'React'],
             image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
             github: 'https://github.com/orbek/portfolio/tree/main/_backup/Projects/Autonomoues%20Trading%20Agent',
-            demo: 'https://agenttrading.azurewebsites.net',
+            demo: 'https://argus.databarbosa.com',
         },
         {
             title: 'PNL Report Agent',
