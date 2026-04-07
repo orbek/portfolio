@@ -1,158 +1,110 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Linkedin, Globe } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { ArrowDown } from 'lucide-react';
 
 const Hero = () => {
-    const roles = [
-        'AI Solutions Architect at Harvard',
-        'Founder of Kojo Analytics',
-        'Process Improvement & Prototyping',
-        'Stakeholder Engagement & Delivery'
-    ];
-
-    const [currentRole, setCurrentRole] = useState(0);
-    const [displayText, setDisplayText] = useState('');
-    const [isDeleting, setIsDeleting] = useState(false);
-
-    useEffect(() => {
-        const role = roles[currentRole];
-        const timeout = setTimeout(() => {
-            if (!isDeleting) {
-                if (displayText.length < role.length) {
-                    setDisplayText(role.substring(0, displayText.length + 1));
-                } else {
-                    setTimeout(() => setIsDeleting(true), 2000);
-                }
-            } else {
-                if (displayText.length > 0) {
-                    setDisplayText(displayText.substring(0, displayText.length - 1));
-                } else {
-                    setIsDeleting(false);
-                    setCurrentRole((prev) => (prev + 1) % roles.length);
-                }
-            }
-        }, isDeleting ? 30 : 50);
-
-        return () => clearTimeout(timeout);
-    }, [displayText, isDeleting, currentRole, roles]);
-
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-            {/* Background Elements */}
-            <div className="absolute inset-0 z-0">
-                <div className="absolute top-20 left-20 w-72 h-72 bg-primary-500/20 rounded-full blur-[100px]" />
-                <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-500/20 rounded-full blur-[100px]" />
-            </div>
+        <section className="relative min-h-screen flex items-end pb-20 md:pb-32 overflow-hidden">
+            {/* Subtle grain overlay */}
+            <div
+                className="absolute inset-0 opacity-[0.03] pointer-events-none"
+                style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
+                }}
+            />
 
-            <div className="container mx-auto px-6 relative z-10">
-                <div className="max-w-4xl mx-auto text-center">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5 }}
-                    >
-                        {/* Profile Image */}
+            {/* Accent line */}
+            <motion.div
+                className="absolute top-0 left-8 md:left-16 w-px bg-gradient-to-b from-accent/0 via-accent/30 to-accent/0"
+                initial={{ height: 0 }}
+                animate={{ height: '100%' }}
+                transition={{ duration: 1.5, ease: 'easeOut' }}
+            />
+
+            <div className="max-w-6xl mx-auto px-6 w-full relative z-10">
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-end">
+                    {/* Left: Name and title */}
+                    <div className="md:col-span-8">
                         <motion.div
-                            className="mb-8"
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.8, delay: 0.3 }}
                         >
-                            <img
-                                src="/assets/images/profile.jpg"
-                                alt="Carlos Barbosa"
-                                className="w-36 h-36 md:w-40 md:h-40 rounded-full mx-auto border-4 border-primary-500/30 shadow-2xl shadow-primary-500/20 object-cover"
-                            />
+                            <p className="font-mono text-xs text-accent-dark tracking-[0.3em] uppercase mb-6">
+                                AI Solutions Architect
+                            </p>
                         </motion.div>
 
-                        <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-                            Carlos Barbosa
-                        </h1>
+                        <motion.h1
+                            className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-neutral-900 tracking-tight leading-[0.9] mb-8"
+                            initial={{ opacity: 0, y: 40 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.7, delay: 0.5 }}
+                        >
+                            Carlos
+                            <br />
+                            Barbosa
+                        </motion.h1>
 
-                        {/* Typed Role */}
-                        <div className="h-10 md:h-12 mb-6">
-                            <span className="text-xl md:text-2xl text-primary-400 font-medium">
-                                {displayText}
-                                <span className="animate-pulse">|</span>
+                        <motion.p
+                            className="text-lg md:text-xl text-neutral-500 max-w-lg leading-relaxed"
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.6, delay: 0.8 }}
+                        >
+                            I analyze processes, identify inefficiencies, design solutions,
+                            and implement with stakeholder buy-in.{' '}
+                            <span className="text-neutral-800">
+                                Currently at Harvard Maintenance.
                             </span>
+                        </motion.p>
+                    </div>
+
+                    {/* Right: Meta info */}
+                    <motion.div
+                        className="md:col-span-4 flex flex-col gap-6"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 0.6, delay: 1.1 }}
+                    >
+                        <div className="space-y-4 md:text-right">
+                            <div>
+                                <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">Currently</p>
+                                <a
+                                    href="https://www.harvardmaint.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="font-display text-sm text-neutral-800 hover:text-accent transition-colors"
+                                >
+                                    Harvard Maintenance
+                                </a>
+                            </div>
+                            <div>
+                                <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">Founded</p>
+                                <a
+                                    href="https://kojoanalytics.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="font-display text-sm text-accent hover:text-accent-dark transition-colors"
+                                >
+                                    Kojo Analytics
+                                </a>
+                            </div>
+                            <div>
+                                <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">Education</p>
+                                <p className="font-display text-sm text-neutral-800">M.S. Data Science, UT Austin</p>
+                            </div>
                         </div>
 
-                        <p className="text-lg md:text-xl text-slate-400 mb-8 max-w-2xl mx-auto leading-relaxed">
-                            AI Solutions Architect at Harvard. I analyze processes, identify inefficiencies, design solutions, prototype for feedback, and implement with stakeholder buy-in. Founder of{' '}
-                            <a
-                                href="https://kojoanalytics.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-primary-400 hover:text-primary-300 underline underline-offset-2"
-                            >
-                                Kojo Analytics
-                            </a>.
-                        </p>
-
-                        {/* Quote */}
-                        <motion.blockquote
-                            className="mb-10 max-w-lg mx-auto p-6 bg-slate-800/50 rounded-xl border-l-4 border-primary-500/50 backdrop-blur-sm"
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: 0.4 }}
-                        >
-                            <p className="text-slate-300 italic text-lg mb-2">
-                                "You can't improve what you can't measure"
-                            </p>
-                            <cite className="text-slate-500 text-sm">— Peter Drucker</cite>
-                        </motion.blockquote>
-                    </motion.div>
-
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 0.3 }}
-                        className="flex flex-col sm:flex-row items-center justify-center gap-4"
-                    >
                         <a
                             href="#projects"
-                            className="px-8 py-4 bg-primary-600 hover:bg-primary-500 text-white rounded-full font-medium transition-all transform hover:scale-105 flex items-center gap-2 shadow-lg shadow-primary-500/25"
+                            className="group flex items-center gap-2 md:justify-end font-mono text-xs text-neutral-400 hover:text-accent transition-colors"
                         >
-                            View My Work
-                            <ArrowRight size={20} />
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/09barbosacarlos"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-full font-medium transition-all border border-slate-700 flex items-center gap-2"
-                        >
-                            <Linkedin size={20} />
-                            Let's Connect
-                        </a>
-                        <a
-                            href="https://kojoanalytics.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="px-8 py-4 bg-purple-600 hover:bg-purple-500 text-white rounded-full font-medium transition-all transform hover:scale-105 flex items-center gap-2 shadow-lg shadow-purple-500/25"
-                        >
-                            <Globe size={20} />
-                            Kojo Analytics
+                            View selected work
+                            <ArrowDown size={14} className="group-hover:translate-y-1 transition-transform" />
                         </a>
                     </motion.div>
                 </div>
             </div>
-
-            {/* Scroll Indicator */}
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1, duration: 1 }}
-                className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-            >
-                <div className="w-6 h-10 border-2 border-slate-500 rounded-full p-1 flex justify-center">
-                    <motion.div
-                        animate={{ y: [0, 12, 0] }}
-                        transition={{ repeat: Infinity, duration: 1.5 }}
-                        className="w-1.5 h-1.5 bg-slate-400 rounded-full"
-                    />
-                </div>
-            </motion.div>
         </section>
     );
 };

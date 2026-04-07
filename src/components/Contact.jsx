@@ -1,118 +1,85 @@
 import { motion } from 'framer-motion';
-import { Linkedin, Github, Award, Bot, LineChart, GraduationCap, Database } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Contact = () => {
-    const contactMethods = [
-        {
-            title: 'LinkedIn',
-            description: 'Connect with me professionally',
-            icon: <Linkedin className="w-6 h-6" />,
-            link: 'https://www.linkedin.com/in/09barbosacarlos',
-            buttonText: 'Connect',
-            color: 'from-blue-600 to-blue-500'
-        },
-        {
-            title: 'GitHub',
-            description: 'Explore my code repositories',
-            icon: <Github className="w-6 h-6" />,
-            link: 'https://github.com/orbek',
-            buttonText: 'Follow',
-            color: 'from-slate-700 to-slate-600'
-        },
-        {
-            title: 'Credly',
-            description: 'View my certifications',
-            icon: <Award className="w-6 h-6" />,
-            link: 'https://www.credly.com/users/carlos-barbosa.71a6836a',
-            buttonText: 'View Badges',
-            color: 'from-orange-600 to-orange-500'
-        }
-    ];
-
-    const highlights = [
-        { icon: <Bot className="w-5 h-5" />, label: 'AI Implementation' },
-        { icon: <LineChart className="w-5 h-5" />, label: 'Data Science Consulting' },
-        { icon: <GraduationCap className="w-5 h-5" />, label: 'Educational Roles' },
-        { icon: <Database className="w-5 h-5" />, label: 'Business Intelligence' }
-    ];
-
     return (
-        <section id="contact" className="py-20 bg-dark-100/50">
-            <div className="container mx-auto px-6">
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5 }}
-                    className="max-w-3xl mx-auto text-center mb-16"
-                >
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Let's Connect</h2>
-                    <div className="w-20 h-1 bg-primary-500 mx-auto rounded-full mb-8" />
-                    <p className="text-slate-400 text-lg">
-                        Ready to collaborate on your next data science or AI project?
-                    </p>
-                </motion.div>
+        <section id="contact" className="py-24 md:py-32 border-t border-neutral-200">
+            <div className="max-w-6xl mx-auto px-6">
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-16">
+                    {/* Left */}
+                    <motion.div
+                        className="md:col-span-7"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6 }}
+                    >
+                        <p className="font-mono text-xs text-accent-dark tracking-[0.3em] uppercase mb-4">Contact</p>
+                        <h2 className="font-display text-3xl md:text-5xl font-bold text-neutral-900 tracking-tight mb-8 leading-tight">
+                            Let's build<br />
+                            something<br />
+                            <span className="text-accent">together.</span>
+                        </h2>
+                        <p className="text-neutral-500 leading-relaxed max-w-md">
+                            Open to opportunities in AI implementation, data science consulting,
+                            and educational roles. If you have a problem worth solving, I'd like to hear about it.
+                        </p>
+                    </motion.div>
 
-                {/* Contact Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
-                    {contactMethods.map((method, index) => (
-                        <motion.div
-                            key={index}
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
-                            whileHover={{ scale: 1.05, y: -10 }}
-                            className="bg-dark-200 p-8 rounded-2xl border border-slate-800 hover:border-primary-500/50 transition-all text-center"
-                        >
-                            <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${method.color} rounded-full mb-6 text-white shadow-lg`}>
-                                {method.icon}
-                            </div>
-                            <h3 className="text-xl font-bold text-white mb-2">{method.title}</h3>
-                            <p className="text-slate-400 mb-6">{method.description}</p>
+                    {/* Right */}
+                    <motion.div
+                        className="md:col-span-5 flex flex-col justify-end"
+                        initial={{ opacity: 0, x: 20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.2 }}
+                    >
+                        <div className="space-y-6">
                             <a
-                                href={method.link}
+                                href="mailto:carlos@databarbosa.com"
+                                className="group flex items-center gap-4 py-4 border-b border-neutral-200/80 hover:border-accent/30 transition-colors"
+                            >
+                                <Mail size={16} className="text-neutral-400 group-hover:text-accent transition-colors" />
+                                <div>
+                                    <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">Email</p>
+                                    <p className="font-display text-sm text-neutral-800 group-hover:text-accent transition-colors">
+                                        carlos@databarbosa.com
+                                    </p>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.linkedin.com/in/09barbosacarlos"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r ${method.color} text-white rounded-full font-medium transition-all hover:shadow-lg hover:shadow-primary-500/20`}
+                                className="group flex items-center gap-4 py-4 border-b border-neutral-200/80 hover:border-accent/30 transition-colors"
                             >
-                                {method.buttonText}
+                                <Linkedin size={16} className="text-neutral-400 group-hover:text-accent transition-colors" />
+                                <div>
+                                    <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">LinkedIn</p>
+                                    <p className="font-display text-sm text-neutral-800 group-hover:text-accent transition-colors">
+                                        /in/09barbosacarlos
+                                    </p>
+                                </div>
                             </a>
-                        </motion.div>
-                    ))}
-                </div>
 
-                {/* CTA Section */}
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.3 }}
-                    className="max-w-4xl mx-auto bg-gradient-to-r from-primary-600 to-purple-600 rounded-3xl p-8 md:p-12 text-center shadow-2xl shadow-primary-500/20"
-                >
-                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Ready to Work Together?</h3>
-                    <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-                        I'm currently open to new opportunities in AI implementation, data science consulting,
-                        and educational roles. Let's discuss how we can drive innovation and efficiency through data.
-                    </p>
-
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                        {highlights.map((item, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, scale: 0.8 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.4 + index * 0.1 }}
-                                whileHover={{ y: -3 }}
-                                className="flex items-center justify-center gap-2 px-4 py-3 bg-white/10 rounded-xl backdrop-blur-sm"
+                            <a
+                                href="https://github.com/orbek"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group flex items-center gap-4 py-4 border-b border-neutral-200/80 hover:border-accent/30 transition-colors"
                             >
-                                <span className="text-white/90">{item.icon}</span>
-                                <span className="text-white font-medium text-sm">{item.label}</span>
-                            </motion.div>
-                        ))}
-                    </div>
-                </motion.div>
+                                <Github size={16} className="text-neutral-400 group-hover:text-accent transition-colors" />
+                                <div>
+                                    <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">GitHub</p>
+                                    <p className="font-display text-sm text-neutral-800 group-hover:text-accent transition-colors">
+                                        @orbek
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </motion.div>
+                </div>
             </div>
         </section>
     );

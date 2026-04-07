@@ -6,27 +6,29 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply bg-dark text-slate-200 font-sans antialiased;
+    @apply bg-surface-deep text-neutral-700 font-body antialiased;
   }
 
-  /* Custom Scrollbar */
+  ::selection {
+    background: rgba(184, 134, 11, 0.2);
+    color: #1a1816;
+  }
+
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
   }
-  
-  ::-webkit-scrollbar-track {
-    @apply bg-dark-100;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    @apply bg-primary-600 rounded-full hover:bg-primary-500 transition-colors;
-  }
-}
 
-@layer utilities {
-  .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-400 to-purple-500;
+  ::-webkit-scrollbar-track {
+    @apply bg-surface;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-300 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent;
   }
 }

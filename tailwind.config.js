@@ -7,31 +7,38 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
-          950: '#082f49',
+        accent: {
+          DEFAULT: '#b8860b',
+          light: '#d4a017',
+          dark: '#8b6508',
+          muted: 'rgba(184, 134, 11, 0.12)',
         },
-        dark: {
-          DEFAULT: '#0f172a',
-          100: '#1e293b',
-          200: '#334155',
-          300: '#475569',
+        coral: '#c0504d',
+        surface: {
+          DEFAULT: '#f5f3ef',
+          deep: '#eae7e1',
+          raised: '#ffffff',
+          overlay: '#ede9e3',
+        },
+        neutral: {
+          50: '#faf9f7',
+          100: '#f5f3ef',
+          200: '#e8e4dd',
+          300: '#cdc7bc',
+          400: '#a39e94',
+          500: '#7a756c',
+          600: '#5c5850',
+          700: '#3d3a35',
+          800: '#2a2725',
+          900: '#1a1816',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        display: ['Space Grotesk', 'sans-serif'],
+        body: ['Source Serif 4', 'Georgia', 'serif'],
+        mono: ['JetBrains Mono', 'monospace'],
       },
     },
   },
   plugins: [],
 }
-
