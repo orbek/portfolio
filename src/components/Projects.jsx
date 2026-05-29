@@ -4,6 +4,15 @@ import { Github, ArrowUpRight } from 'lucide-react';
 const Projects = () => {
     const featured = [
         {
+            title: 'GrantLens',
+            subtitle: 'AI Grant Discovery Platform',
+            description: 'AI-powered grant discovery platform for US nonprofits. Aggregates and deduplicates federal, state, county, and foundation opportunities (Grants.gov, SAM.gov, USASpending, state portals, and foundations) into one search, ranks them against each org\'s mission using OpenAI embeddings over pgvector, and predicts eligibility against 174 requirements across 22 funders before you apply.',
+            result: 'Live SaaS replacing weeks of manual portal-hopping — with AI matching, a readiness engine, LOI drafting, funder intelligence, and an MCP server exposing 10 tools to Claude.',
+            tags: ['Next.js', 'React', 'TypeScript', 'Python', 'Azure', 'pgvector', 'OpenAI', 'Stripe', 'MCP'],
+            demo: 'https://grantlens.io',
+            number: '01',
+        },
+        {
             title: 'Autonomous Trading Agent',
             subtitle: 'Multi-Agent AI System',
             description: 'Fully autonomous Level 4 adaptive trading system with 6 specialized AI agents orchestrated via LangGraph. Features CAPM-based risk management, GPT-4 sentiment analysis, 15+ guardrails, Bayesian parameter optimization, and market regime detection.',
@@ -11,7 +20,7 @@ const Projects = () => {
             tags: ['Python', 'LangGraph', 'OpenAI', 'Alpaca API', 'Azure', 'React'],
             github: 'https://github.com/orbek/portfolio/tree/main/_backup/Projects/Autonomoues%20Trading%20Agent',
             demo: 'https://argus.databarbosa.com',
-            number: '01',
+            number: '02',
         },
         {
             title: 'PNL Report Agent',
@@ -20,7 +29,7 @@ const Projects = () => {
             result: 'Automated anomaly detection across financial statements with natural language explanations.',
             tags: ['Python', 'OpenAI GPT-4', 'LangGraph', 'ChromaDB', 'RAG'],
             github: 'https://github.com/orbek/PNL-Report-Agent',
-            number: '02',
+            number: '03',
         },
         {
             title: 'TACOLCY CRM System',
@@ -29,7 +38,7 @@ const Projects = () => {
             result: 'HIPAA-compliant system serving a Miami-based nonprofit with audit logging and role-based access.',
             tags: ['React', 'Azure Functions', 'Python', 'SQL Server', 'Docker'],
             github: 'https://github.com/orbek/portfolio/tree/main/_backup/Projects/TACOLCY%20CRM',
-            number: '03',
+            number: '04',
         },
     ];
 
@@ -121,16 +130,18 @@ const Projects = () => {
                                 </p>
 
                                 <div className="flex items-center gap-6">
-                                    <a
-                                        href={project.github}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="group flex items-center gap-2 font-mono text-xs text-neutral-400 hover:text-accent transition-colors"
-                                    >
-                                        <Github size={14} />
-                                        Source
-                                        <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
-                                    </a>
+                                    {project.github && (
+                                        <a
+                                            href={project.github}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="group flex items-center gap-2 font-mono text-xs text-neutral-400 hover:text-accent transition-colors"
+                                        >
+                                            <Github size={14} />
+                                            Source
+                                            <ArrowUpRight size={12} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                                        </a>
+                                    )}
                                     {project.demo && (
                                         <a
                                             href={project.demo}
