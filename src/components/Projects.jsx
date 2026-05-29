@@ -18,7 +18,6 @@ const Projects = () => {
             description: 'Fully autonomous Level 4 adaptive trading system with 6 specialized AI agents orchestrated via LangGraph. Features CAPM-based risk management, GPT-4 sentiment analysis, 15+ guardrails, Bayesian parameter optimization, and market regime detection.',
             result: 'Trades US stocks and cryptocurrency 24/7 with dynamic parameter adjustment.',
             tags: ['Python', 'LangGraph', 'OpenAI', 'Alpaca API', 'Azure', 'React'],
-            github: 'https://github.com/orbek/portfolio/tree/main/_backup/Projects/Autonomoues%20Trading%20Agent',
             demo: 'https://argus.databarbosa.com',
             number: '02',
         },
@@ -28,7 +27,6 @@ const Projects = () => {
             description: 'AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.',
             result: 'Automated anomaly detection across financial statements with natural language explanations.',
             tags: ['Python', 'OpenAI GPT-4', 'LangGraph', 'ChromaDB', 'RAG'],
-            github: 'https://github.com/orbek/PNL-Report-Agent',
             number: '03',
         },
         {
@@ -37,7 +35,7 @@ const Projects = () => {
             description: 'Full-stack CRM for Belafonte TACOLCY Center nonprofit. Features client intake with tablet kiosk mode, CANS assessments, FNSP eligibility, donor management, and real-time analytics dashboard.',
             result: 'HIPAA-compliant system serving a Miami-based nonprofit with audit logging and role-based access.',
             tags: ['React', 'Azure Functions', 'Python', 'SQL Server', 'Docker'],
-            github: 'https://github.com/orbek/portfolio/tree/main/_backup/Projects/TACOLCY%20CRM',
+            demo: 'https://tacolcy.azurewebsites.net/',
             number: '04',
         },
     ];
@@ -47,6 +45,7 @@ const Projects = () => {
             title: 'STEM PACTS App',
             description: 'Grant management system for tracking metrics and objectives',
             tags: ['Azure', 'Streamlit', 'SQL Server'],
+            demo: 'https://mdcgrant.azurewebsites.net',
         },
         {
             title: 'Deep Learning Research',
@@ -180,9 +179,9 @@ const Projects = () => {
                                 className="group flex flex-col sm:flex-row sm:items-baseline gap-2 sm:gap-0 py-4 border-b border-neutral-200/80"
                             >
                                 <div className="sm:flex-1">
-                                    {project.github ? (
+                                    {(project.demo || project.github) ? (
                                         <a
-                                            href={project.github}
+                                            href={project.demo || project.github}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="font-display text-sm font-semibold text-neutral-800 hover:text-accent transition-colors"
