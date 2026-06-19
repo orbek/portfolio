@@ -38,6 +38,15 @@ const Projects = () => {
             demo: 'https://tacolcy.azurewebsites.net/',
             number: '04',
         },
+        {
+            title: 'Enterprise Voice Agents',
+            subtitle: 'Regulated Voice AI · Reference Architectures',
+            description: 'Two open-source, production-shaped voice-agent reference architectures for regulated domains, on a shared half-cascade LiveKit + SIP pipeline (native audio → text LLM → streaming TTS) with safety guardrails enforced in code, not prompts. PatientLine is a HIPAA-aware patient-access agent (no medical advice, no refill approvals, no PHI before identity verification); WillCall is a PCI-aware ticketing agent whose architecture keeps card data entirely out of the AI environment.',
+            result: 'Safety is mechanically provable: release-blocking CI evals enforce zero clinical advice / zero refill approvals (PatientLine) and a Luhn-checked scan proving zero card numbers in any transcript or log (WillCall) — shipped with Terraform IaC, BAA/PCI data-flow mapping, and ADRs defending every decision.',
+            tags: ['Python', 'LiveKit', 'SIP', 'LLM', 'HIPAA', 'PCI DSS', 'Terraform'],
+            github: 'https://github.com/orbek/voice-agent-reference-architectures',
+            number: '05',
+        },
     ];
 
     const other = [
