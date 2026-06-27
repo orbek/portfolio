@@ -4,8 +4,11 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
+import useSectionTracking from './hooks/useSectionTracking';
 
 function App() {
+  useSectionTracking();
+
   return (
     <div className="min-h-screen bg-surface-deep text-neutral-700">
       <Navbar />
