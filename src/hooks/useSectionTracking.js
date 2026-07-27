@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 // major section scrolls into view, giving visibility into how far visitors
 // actually get (and whether the headline "100% bounce" reflects real instant
 // exits or just the lack of in-page engagement signals).
-const SECTIONS = ['about', 'projects', 'credentials', 'contact'];
+const SECTIONS = ['about', 'projects', 'writing', 'credentials', 'contact'];
 
 export default function useSectionTracking() {
   useEffect(() => {

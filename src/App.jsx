@@ -1,32 +1,38 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Certifications from './components/Certifications';
-import Contact from './components/Contact';
-import useSectionTracking from './hooks/useSectionTracking';
+import { useEffect } from 'react';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import Home from './pages/Home';
+import BlogPost from './pages/BlogPost';
+
+// On navigation, jump to the top of the page — unless the URL carries a hash,
+// in which case scroll to that section (e.g. "/#writing" from a post's back link).
+function ScrollToTop() {
+    const { pathname, hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+            const el = document.getElementById(hash.slice(1));
+            if (el) {
+                el.scrollIntoView();
+                return;
+            }
+        }
+        window.scrollTo(0, 0);
+    }, [pathname, hash]);
+
+    return null;
+}
 
 function App() {
-  useSectionTracking();
-
-  return (
-    <div className="min-h-screen bg-surface-deep text-neutral-700">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Certifications />
-        <Contact />
-      </main>
-
-      <footer className="py-12 text-center border-t border-neutral-200">
-        <p className="font-mono text-xs text-neutral-400 tracking-wide">
-          &copy; {new Date().getFullYear()} Carlos Barbosa
-        </p>
-      </footer>
-    </div>
-  );
+    return (
+        <>
+            <ScrollToTop />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/blog/:slug" element={<BlogPost />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+        </>
+    );
 }
 
 export default App;

@@ -32,3 +32,61 @@
     @apply bg-accent;
   }
 }
+
+/* Blog post typography — keeps post JSX clean semantic HTML. */
+@layer components {
+  .post-body {
+    @apply font-body text-neutral-700;
+  }
+
+  .post-body p {
+    @apply text-lg leading-relaxed my-6;
+  }
+
+  .post-body a {
+    @apply text-accent underline decoration-accent/40 underline-offset-2 hover:decoration-accent transition-colors;
+  }
+
+  .post-body em {
+    @apply italic;
+  }
+
+  /* Standalone emphasized lines, e.g. "Creativity must be cultivated." */
+  .post-body .statement {
+    @apply font-display text-xl md:text-2xl font-semibold text-neutral-900 leading-snug my-10;
+  }
+
+  .post-body blockquote {
+    @apply border-l-2 border-accent/40 pl-6 my-8 text-neutral-600 italic;
+  }
+
+  .post-body blockquote p {
+    @apply text-lg my-2;
+  }
+
+  .post-body ul {
+    @apply my-8 space-y-2 list-none pl-0;
+  }
+
+  .post-body li {
+    @apply text-lg leading-relaxed pl-5 relative;
+  }
+
+  .post-body li::before {
+    content: '';
+    @apply absolute left-0 top-[0.7em] w-2 h-px bg-accent;
+  }
+
+  /* Rhythmic closing cadence: "Think. / Try. / Experiment. ..." */
+  .post-body ul.cadence {
+    @apply my-10 space-y-1;
+  }
+
+  .post-body ul.cadence li {
+    @apply font-display text-lg md:text-xl font-semibold text-neutral-900 pl-0;
+  }
+
+  .post-body ul.cadence li::before {
+    content: none;
+  }
+}
