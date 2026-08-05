@@ -71,8 +71,7 @@ const About = () => {
                                 I take initiatives from the first discovery session through production:
                                 framing the problem with directors and C-suite leadership, designing the
                                 system, building it, then proving it works before it earns any autonomy.
-                                I lead a team of two engineers I'm developing toward full-time roles, and
-                                I teach AI and Machine Learning as Adjunct Faculty at Miami Dade College.
+                                I lead a team of two engineers I'm developing toward full-time roles.
                             </p>
                         </div>
 
