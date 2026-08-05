@@ -2,10 +2,18 @@ import { motion } from 'framer-motion';
 
 const About = () => {
     const capabilities = [
-        { area: 'ML & Deep Learning', tools: 'PyTorch, TensorFlow, Scikit-learn, CNNs, Transformers' },
-        { area: 'LLMs & AI Engineering', tools: 'LangChain, LangGraph, GPT-4, RAG, Multi-Agent Systems' },
-        { area: 'Data Science', tools: 'Python, SQL, Power BI, Statistical Analysis, Feature Engineering' },
-        { area: 'MLOps & Cloud', tools: 'Azure, Docker, CI/CD, FastAPI, Model Deployment' },
+        { area: 'AI Agents & LLM Systems', tools: 'Multi-agent pipelines, tool use, structured output, prompt versioning' },
+        { area: 'Evaluation & AI Safety', tools: 'Golden sets, CI eval gates, confidence calibration, shadow-mode validation' },
+        { area: 'ML & Deep Learning', tools: 'PyTorch, Transformers, Scikit-learn, Feature Engineering' },
+        { area: 'Backend & Data', tools: 'Python, FastAPI, SQLAlchemy, SQL Server, Event-Driven Architecture' },
+        { area: 'Cloud & MLOps', tools: 'AWS Bedrock, Azure, Docker, CI/CD, Model Registry & Versioning' },
+    ];
+
+    const leadership = [
+        { label: 'Ownership', detail: 'AI portfolio — strategy, roadmap, architecture, delivery' },
+        { label: 'Stakeholders', detail: 'C-suite sponsorship (CEO, CFO, COO, CLO) and director-level partners' },
+        { label: 'Team', detail: '2 engineers, mentored toward full-time roles' },
+        { label: 'Delivery', detail: 'Discovery and brainstorming through build, validation, and rollout' },
     ];
 
     return (
@@ -32,9 +40,9 @@ const About = () => {
                         {/* Stats row */}
                         <div className="grid grid-cols-3 gap-4 pt-8 border-t border-neutral-200">
                             {[
-                                { value: '7+', label: 'Years' },
-                                { value: '15+', label: 'Projects' },
-                                { value: '20+', label: 'Certs' },
+                                { value: '10', label: 'Shipped' },
+                                { value: '5', label: 'In Production' },
+                                { value: '2', label: 'Engineers Led' },
                             ].map((stat, i) => (
                                 <div key={i}>
                                     <p className="font-display text-2xl font-bold text-neutral-900">{stat.value}</p>
@@ -54,15 +62,17 @@ const About = () => {
                     >
                         <div className="space-y-6 mb-12">
                             <p className="text-lg text-neutral-700 leading-relaxed">
-                                Machine Learning Engineer and Data Scientist with an M.S. in Data Science
-                                from UT Austin. At Harvard Maintenance, I architect and deploy AI solutions that automate
-                                workflows, extract insights from data, and deliver measurable business impact.
+                                AI Solutions Manager at Harvard Maintenance, where I own the AI
+                                portfolio — setting the roadmap, running discovery with executive
+                                sponsors, and staying hands-on in the architecture. M.S. in Data
+                                Science from UT Austin.
                             </p>
                             <p className="text-neutral-500 leading-relaxed">
-                                My expertise spans the full ML lifecycle: from exploratory analysis and feature
-                                engineering, through model development and validation, to production deployment
-                                with LLMs, multi-agent systems, and RAG architectures. I also teach AI and
-                                Machine Learning as Adjunct Faculty at Miami Dade College.
+                                I take initiatives from the first discovery session through production:
+                                framing the problem with directors and C-suite leadership, designing the
+                                system, building it, then proving it works before it earns any autonomy.
+                                I lead a team of two engineers I'm developing toward full-time roles, and
+                                I teach AI and Machine Learning as Adjunct Faculty at Miami Dade College.
                             </p>
                         </div>
 
@@ -85,6 +95,32 @@ const About = () => {
                                     </span>
                                 </motion.div>
                             ))}
+                        </div>
+
+                        {/* Leadership & scope */}
+                        <div className="mt-12">
+                            <p className="font-mono text-xs text-accent-dark tracking-[0.3em] uppercase mb-6">
+                                Leadership &amp; Scope
+                            </p>
+                            <div className="space-y-0">
+                                {leadership.map((item, index) => (
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0 }}
+                                        whileInView={{ opacity: 1 }}
+                                        viewport={{ once: true }}
+                                        transition={{ delay: index * 0.1 }}
+                                        className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4 py-4 border-b border-neutral-200/80"
+                                    >
+                                        <span className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest shrink-0 sm:w-32 sm:pt-1">
+                                            {item.label}
+                                        </span>
+                                        <span className="text-sm text-neutral-600">
+                                            {item.detail}
+                                        </span>
+                                    </motion.div>
+                                ))}
+                            </div>
                         </div>
                     </motion.div>
                 </div>

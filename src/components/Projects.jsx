@@ -1,8 +1,17 @@
 import { motion } from 'framer-motion';
-import { Github, ArrowUpRight } from 'lucide-react';
+import { Github, ArrowUpRight, Lock } from 'lucide-react';
 
 const Projects = () => {
     const featured = [
+        {
+            title: 'Enterprise AI Decision Layer',
+            subtitle: 'Production Agent Platform · Program Lead',
+            description: 'An AI decision layer over a live service-operations platform, built as an event-driven agent pipeline: it polls system state on a short cycle, assembles the same context a human reviewer would see, classifies risk with an LLM, and fuses that into a composite confidence score. Above threshold it acts through the platform\'s own permitted-action API — never writing to the database directly, never inferring what it may do. Below threshold it hands a human a pre-filled decision card instead of a blank ticket.',
+            result: 'Led it from discovery to approved production program — charter, roadmap, executive stakeholder sessions, and a build-vs-buy analysis that redirected a six-figure external design proposal in-house. Validated observe-only before earning any autonomy: 10 models across 2 providers benchmarked against a hand-labeled golden set, a ≥90% accuracy gate in CI, thresholds derived from Wilson lower-bound agreement curves rather than chosen by hand, and every decision — executed, shadowed, or escalated — written to an auditable ledger with its rationale, evidence, and the policy in force at that moment.',
+            tags: ['Python', 'FastAPI', 'AWS Bedrock', 'Angular', 'SQL Server', 'LLM Evals'],
+            proprietary: true,
+            number: '01',
+        },
         {
             title: 'GrantLens',
             subtitle: 'AI Grant Discovery Platform',
@@ -10,7 +19,7 @@ const Projects = () => {
             result: 'Live SaaS replacing weeks of manual portal-hopping — with AI matching, a readiness engine, LOI drafting, funder intelligence, and an MCP server exposing 10 tools to Claude.',
             tags: ['Next.js', 'React', 'TypeScript', 'Python', 'Azure', 'pgvector', 'OpenAI', 'Stripe', 'MCP'],
             demo: 'https://grantlens.io',
-            number: '01',
+            number: '02',
         },
         {
             title: 'Autonomous Trading Agent',
@@ -19,7 +28,7 @@ const Projects = () => {
             result: 'Trades US stocks and cryptocurrency 24/7 with dynamic parameter adjustment.',
             tags: ['Python', 'LangGraph', 'OpenAI', 'Alpaca API', 'Azure', 'React'],
             demo: 'https://argus.databarbosa.com',
-            number: '02',
+            number: '03',
         },
         {
             title: 'PNL Report Agent',
@@ -27,7 +36,7 @@ const Projects = () => {
             description: 'AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.',
             result: 'Automated anomaly detection across financial statements with natural language explanations.',
             tags: ['Python', 'OpenAI GPT-4', 'LangGraph', 'ChromaDB', 'RAG'],
-            number: '03',
+            number: '04',
         },
         {
             title: 'TACOLCY CRM System',
@@ -36,7 +45,7 @@ const Projects = () => {
             result: 'HIPAA-compliant system serving a Miami-based nonprofit with audit logging and role-based access.',
             tags: ['React', 'Azure Functions', 'Python', 'SQL Server', 'Docker'],
             demo: 'https://tacolcy.azurewebsites.net/',
-            number: '04',
+            number: '05',
         },
         {
             title: 'Enterprise Voice Agents',
@@ -45,7 +54,7 @@ const Projects = () => {
             result: 'Safety is mechanically provable: release-blocking CI evals enforce zero clinical advice / zero refill approvals (PatientLine) and a Luhn-checked scan proving zero card numbers in any transcript or log (WillCall) — shipped with Terraform IaC, BAA/PCI data-flow mapping, and ADRs defending every decision.',
             tags: ['Python', 'LiveKit', 'SIP', 'LLM', 'HIPAA', 'PCI DSS', 'Terraform'],
             github: 'https://github.com/orbek/voice-agent-reference-architectures',
-            number: '05',
+            number: '06',
         },
     ];
 
@@ -138,6 +147,12 @@ const Projects = () => {
                                 </p>
 
                                 <div className="flex items-center gap-6">
+                                    {project.proprietary && (
+                                        <span className="flex items-center gap-2 font-mono text-xs text-neutral-400">
+                                            <Lock size={12} />
+                                            Proprietary — no public link
+                                        </span>
+                                    )}
                                     {project.github && (
                                         <a
                                             href={project.github}

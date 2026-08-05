@@ -30,7 +30,7 @@ const Hero = () => {
                             transition={{ duration: 0.8, delay: 0.3 }}
                         >
                             <p className="font-mono text-xs text-accent-dark tracking-[0.3em] uppercase mb-6">
-                                AI Solutions Architect
+                                AI Solutions Manager
                             </p>
                         </motion.div>
 
@@ -51,10 +51,11 @@ const Hero = () => {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.8 }}
                         >
-                            I analyze processes, identify inefficiencies, design solutions,
-                            and implement with stakeholder buy-in.{' '}
+                            I lead AI initiatives end to end — discovery, architecture,
+                            build, validation, rollout — with executive sponsorship and a
+                            team I'm growing.{' '}
                             <span className="text-neutral-800">
-                                Currently at Harvard Maintenance.
+                                Currently AI Solutions Manager at Harvard Maintenance.
                             </span>
                         </motion.p>
                     </div>
@@ -77,6 +78,10 @@ const Hero = () => {
                                 >
                                     Harvard Maintenance
                                 </a>
+                            </div>
+                            <div>
+                                <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">Team</p>
+                                <p className="font-display text-sm text-neutral-800">Leading 2 engineers</p>
                             </div>
                             <div>
                                 <p className="font-mono text-[10px] text-neutral-400 uppercase tracking-widest mb-1">Founded</p>
