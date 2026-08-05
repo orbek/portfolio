@@ -21,8 +21,17 @@ const Contact = () => {
                             <span className="text-accent">together.</span>
                         </h2>
                         <p className="text-neutral-500 leading-relaxed max-w-md">
-                            Open to opportunities in AI implementation, data science consulting,
-                            and educational roles. If you have a problem worth solving, I'd like to hear about it.
+                            Open to opportunities in AI implementation and data science —
+                            including contract and advisory work through my firm,{' '}
+                            <a
+                                href="https://kojoanalytics.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-accent hover:text-accent-dark transition-colors"
+                            >
+                                Kojo Analytics
+                            </a>
+                            . If you have a problem worth solving, I'd like to hear about it.
                         </p>
                     </motion.div>
 

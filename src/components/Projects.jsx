@@ -5,7 +5,7 @@ const Projects = () => {
     const featured = [
         {
             title: 'Enterprise AI Decision Layer',
-            subtitle: 'Production Agent Platform · Program Lead',
+            subtitle: 'Enterprise Agent Platform · Program Lead',
             description: 'An AI decision layer over a live service-operations platform, built as an event-driven agent pipeline: it polls system state on a short cycle, assembles the same context a human reviewer would see, classifies risk with an LLM, and fuses that into a composite confidence score. Above threshold it acts through the platform\'s own permitted-action API — never writing to the database directly, never inferring what it may do. Below threshold it hands a human a pre-filled decision card instead of a blank ticket.',
             result: 'Led it from discovery to approved production program — charter, roadmap, executive stakeholder sessions, and a build-vs-buy analysis that redirected a six-figure external design proposal in-house. Validated observe-only before earning any autonomy: 10 models across 2 providers benchmarked against a hand-labeled golden set, a ≥90% accuracy gate in CI, thresholds derived from Wilson lower-bound agreement curves rather than chosen by hand, and every decision — executed, shadowed, or escalated — written to an auditable ledger with its rationale, evidence, and the policy in force at that moment.',
             tags: ['Python', 'FastAPI', 'AWS Bedrock', 'Angular', 'SQL Server', 'LLM Evals'],
