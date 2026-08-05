@@ -67,9 +67,10 @@ they matter as much as visible copy. All four move to "AI Solutions Manager".
   roadmap authority, hands-on in architecture.
 - Paragraph 2: executive stakeholder scope and team development, explicit.
 - Stats row: `7+ Years / 15+ Projects / 20+ Certs` →
-  `10 Shipped / 5 In Production / 2 Engineers Led`. Sourced: 9 site projects
-  plus the proprietary platform; 4 live public URLs plus the proprietary
-  platform; 2 engineers.
+  `11 Shipped / 6 In Production / 2 Engineers Led`. Sourced: 9 site projects
+  plus two proprietary internal systems; 4 live public URLs plus those two
+  systems; 2 engineers. `In Production` assumes the AI decision layer is live —
+  if it is still pre-production, both counts drop by one.
 - Capabilities: replace stale entries (`GPT-4`) with the current stack —
   agent pipelines, evaluation and AI safety, backend and data, cloud and MLOps.
 - New `Leadership & Scope` block: four mono-labeled rows (ownership,
@@ -97,6 +98,13 @@ New featured item `01`, de-identified; existing five renumber to `02`–`06`.
 - **Tags:** Python, FastAPI, AWS Bedrock, Angular, SQL Server, Evals
 - **Link slot:** a `proprietary` flag renders a non-link `Proprietary` marker
   where Source/Live links normally sit.
+
+Second de-identified item `07`, a time/attendance/PTO portal built and rolled
+out internally. Same disclosure boundary: no internal product name or acronym,
+described by function only. Claims limited strictly to what is known — built end
+to end, piloted with corporate staff, expanding to branches. No feature list and
+no tech stack is asserted, because neither has been confirmed; `tags` is
+intentionally empty pending that detail.
 
 ## Out of scope
 

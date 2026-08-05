@@ -40,8 +40,8 @@ const About = () => {
                         {/* Stats row */}
                         <div className="grid grid-cols-3 gap-4 pt-8 border-t border-neutral-200">
                             {[
-                                { value: '10', label: 'Shipped' },
-                                { value: '5', label: 'In Production' },
+                                { value: '11', label: 'Shipped' },
+                                { value: '6', label: 'In Production' },
                                 { value: '2', label: 'Engineers Led' },
                             ].map((stat, i) => (
                                 <div key={i}>

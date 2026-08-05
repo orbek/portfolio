@@ -1,0 +1,318 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link "CB_" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "Work" [ref=e9] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Writing" [ref=e10] [cursor=pointer]:
+          - /url: "#writing"
+        - link "Credentials" [ref=e11] [cursor=pointer]:
+          - /url: "#credentials"
+        - link "Contact" [ref=e12] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=e13]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - paragraph [ref=e20]: AI Solutions Manager
+        - heading "Carlos Barbosa" [level=1] [ref=e21]: CarlosBarbosa
+        - paragraph [ref=e22]: I lead AI initiatives end to end — discovery, architecture, build, validation, rollout — with executive sponsorship and a team I'm growing. Currently AI Solutions Manager at Harvard Maintenance.
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: Currently
+            - link "Harvard Maintenance" [ref=e27] [cursor=pointer]:
+              - /url: https://www.harvardmaint.com
+          - generic [ref=e28]:
+            - paragraph [ref=e29]: Team
+            - paragraph [ref=e30]: Leading 2 engineers
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: Founded
+            - link "Kojo Analytics" [ref=e33] [cursor=pointer]:
+              - /url: https://kojoanalytics.com
+          - generic [ref=e34]:
+            - paragraph [ref=e35]: Education
+            - paragraph [ref=e36]: M.S. Data Science, UT Austin
+        - link "View selected work" [ref=e37] [cursor=pointer]:
+          - /url: "#projects"
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - paragraph [ref=e44]: About
+        - heading "Building intelligent systems that deliver impact." [level=2] [ref=e45]: Building intelligentsystems thatdeliver impact.
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - paragraph [ref=e48]: "11"
+            - paragraph [ref=e49]: Shipped
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: "6"
+            - paragraph [ref=e52]: In Production
+          - generic [ref=e53]:
+            - paragraph [ref=e54]: "2"
+            - paragraph [ref=e55]: Engineers Led
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: AI Solutions Manager at Harvard Maintenance, where I own the AI portfolio — setting the roadmap, running discovery with executive sponsors, and staying hands-on in the architecture. M.S. in Data Science from UT Austin.
+          - paragraph [ref=e59]: "I take initiatives from the first discovery session through production: framing the problem with directors and C-suite leadership, designing the system, building it, then proving it works before it earns any autonomy. I lead a team of two engineers I'm developing toward full-time roles, and I teach AI and Machine Learning as Adjunct Faculty at Miami Dade College."
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: AI Agents & LLM Systems
+            - generic [ref=e63]: Multi-agent pipelines, tool use, structured output, prompt versioning
+          - generic [ref=e64]:
+            - generic [ref=e65]: Evaluation & AI Safety
+            - generic [ref=e66]: Golden sets, CI eval gates, confidence calibration, shadow-mode validation
+          - generic [ref=e67]:
+            - generic [ref=e68]: ML & Deep Learning
+            - generic [ref=e69]: PyTorch, Transformers, Scikit-learn, Feature Engineering
+          - generic [ref=e70]:
+            - generic [ref=e71]: Backend & Data
+            - generic [ref=e72]: Python, FastAPI, SQLAlchemy, SQL Server, Event-Driven Architecture
+          - generic [ref=e73]:
+            - generic [ref=e74]: Cloud & MLOps
+            - generic [ref=e75]: AWS Bedrock, Azure, Docker, CI/CD, Model Registry & Versioning
+        - generic [ref=e76]:
+          - paragraph [ref=e77]: Leadership & Scope
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Ownership
+              - generic [ref=e81]: AI portfolio — strategy, roadmap, architecture, delivery
+            - generic [ref=e82]:
+              - generic [ref=e83]: Stakeholders
+              - generic [ref=e84]: C-suite sponsorship (CEO, CFO, COO, CLO) and director-level partners
+            - generic [ref=e85]:
+              - generic [ref=e86]: Team
+              - generic [ref=e87]: 2 engineers, mentored toward full-time roles
+            - generic [ref=e88]:
+              - generic [ref=e89]: Delivery
+              - generic [ref=e90]: Discovery and brainstorming through build, validation, and rollout
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: Selected Work
+        - heading "Case Studies" [level=2] [ref=e95]
+      - generic [ref=e96]:
+        - article [ref=e97]:
+          - generic [ref=e98]:
+            - text: "01"
+            - generic [ref=e99]:
+              - paragraph [ref=e100]: Production Agent Platform · Program Lead
+              - generic [ref=e101]:
+                - generic [ref=e102]: Python
+                - generic [ref=e103]: FastAPI
+                - generic [ref=e104]: AWS Bedrock
+                - generic [ref=e105]: Angular
+                - generic [ref=e106]: SQL Server
+                - generic [ref=e107]: LLM Evals
+          - generic [ref=e108]:
+            - heading "Enterprise AI Decision Layer" [level=3] [ref=e109]
+            - paragraph [ref=e110]: "An AI decision layer over a live service-operations platform, built as an event-driven agent pipeline: it polls system state on a short cycle, assembles the same context a human reviewer would see, classifies risk with an LLM, and fuses that into a composite confidence score. Above threshold it acts through the platform's own permitted-action API — never writing to the database directly, never inferring what it may do. Below threshold it hands a human a pre-filled decision card instead of a blank ticket."
+            - paragraph [ref=e111]: "Led it from discovery to approved production program — charter, roadmap, executive stakeholder sessions, and a build-vs-buy analysis that redirected a six-figure external design proposal in-house. Validated observe-only before earning any autonomy: 10 models across 2 providers benchmarked against a hand-labeled golden set, a ≥90% accuracy gate in CI, thresholds derived from Wilson lower-bound agreement curves rather than chosen by hand, and every decision — executed, shadowed, or escalated — written to an auditable ledger with its rationale, evidence, and the policy in force at that moment."
+            - generic [ref=e112]: Proprietary — no public link
+        - article [ref=e117]:
+          - generic [ref=e118]:
+            - text: "02"
+            - generic [ref=e119]:
+              - paragraph [ref=e120]: AI Grant Discovery Platform
+              - generic [ref=e121]:
+                - generic [ref=e122]: Next.js
+                - generic [ref=e123]: React
+                - generic [ref=e124]: TypeScript
+                - generic [ref=e125]: Python
+                - generic [ref=e126]: Azure
+                - generic [ref=e127]: pgvector
+                - generic [ref=e128]: OpenAI
+                - generic [ref=e129]: Stripe
+                - generic [ref=e130]: MCP
+          - generic [ref=e131]:
+            - heading "GrantLens" [level=3] [ref=e132]
+            - paragraph [ref=e133]: AI-powered grant discovery platform for US nonprofits. Aggregates and deduplicates federal, state, county, and foundation opportunities (Grants.gov, SAM.gov, USASpending, state portals, and foundations) into one search, ranks them against each org's mission using OpenAI embeddings over pgvector, and predicts eligibility against 174 requirements across 22 funders before you apply.
+            - paragraph [ref=e134]: Live SaaS replacing weeks of manual portal-hopping — with AI matching, a readiness engine, LOI drafting, funder intelligence, and an MCP server exposing 10 tools to Claude.
+            - link "Live" [ref=e136] [cursor=pointer]:
+              - /url: https://grantlens.io
+        - article [ref=e140]:
+          - generic [ref=e141]:
+            - text: "03"
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: Multi-Agent AI System
+              - generic [ref=e144]:
+                - generic [ref=e145]: Python
+                - generic [ref=e146]: LangGraph
+                - generic [ref=e147]: OpenAI
+                - generic [ref=e148]: Alpaca API
+                - generic [ref=e149]: Azure
+                - generic [ref=e150]: React
+          - generic [ref=e151]:
+            - heading "Autonomous Trading Agent" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Fully autonomous Level 4 adaptive trading system with 6 specialized AI agents orchestrated via LangGraph. Features CAPM-based risk management, GPT-4 sentiment analysis, 15+ guardrails, Bayesian parameter optimization, and market regime detection.
+            - paragraph [ref=e154]: Trades US stocks and cryptocurrency 24/7 with dynamic parameter adjustment.
+            - link "Live" [ref=e156] [cursor=pointer]:
+              - /url: https://argus.databarbosa.com
+        - article [ref=e160]:
+          - generic [ref=e161]:
+            - text: "04"
+            - generic [ref=e162]:
+              - paragraph [ref=e163]: Financial Analysis AI
+              - generic [ref=e164]:
+                - generic [ref=e165]: Python
+                - generic [ref=e166]: OpenAI GPT-4
+                - generic [ref=e167]: LangGraph
+                - generic [ref=e168]: ChromaDB
+                - generic [ref=e169]: RAG
+          - generic [ref=e170]:
+            - heading "PNL Report Agent" [level=3] [ref=e171]
+            - paragraph [ref=e172]: AI-powered financial analysis system that automatically identifies anomalies in P&L reports using multi-agent architecture with statistical analysis, vector similarity search, and GPT-4 report generation.
+            - paragraph [ref=e173]: Automated anomaly detection across financial statements with natural language explanations.
+        - article [ref=e174]:
+          - generic [ref=e175]:
+            - text: "05"
+            - generic [ref=e176]:
+              - paragraph [ref=e177]: Full-Stack Nonprofit Platform
+              - generic [ref=e178]:
+                - generic [ref=e179]: React
+                - generic [ref=e180]: Azure Functions
+                - generic [ref=e181]: Python
+                - generic [ref=e182]: SQL Server
+                - generic [ref=e183]: Docker
+          - generic [ref=e184]:
+            - heading "TACOLCY CRM System" [level=3] [ref=e185]
+            - paragraph [ref=e186]: Full-stack CRM for Belafonte TACOLCY Center nonprofit. Features client intake with tablet kiosk mode, CANS assessments, FNSP eligibility, donor management, and real-time analytics dashboard.
+            - paragraph [ref=e187]: HIPAA-compliant system serving a Miami-based nonprofit with audit logging and role-based access.
+            - link "Live" [ref=e189] [cursor=pointer]:
+              - /url: https://tacolcy.azurewebsites.net/
+        - article [ref=e193]:
+          - generic [ref=e194]:
+            - text: "06"
+            - generic [ref=e195]:
+              - paragraph [ref=e196]: Regulated Voice AI · Reference Architectures
+              - generic [ref=e197]:
+                - generic [ref=e198]: Python
+                - generic [ref=e199]: LiveKit
+                - generic [ref=e200]: SIP
+                - generic [ref=e201]: LLM
+                - generic [ref=e202]: HIPAA
+                - generic [ref=e203]: PCI DSS
+                - generic [ref=e204]: Terraform
+          - generic [ref=e205]:
+            - heading "Enterprise Voice Agents" [level=3] [ref=e206]
+            - paragraph [ref=e207]: Two open-source, production-shaped voice-agent reference architectures for regulated domains, on a shared half-cascade LiveKit + SIP pipeline (native audio → text LLM → streaming TTS) with safety guardrails enforced in code, not prompts. PatientLine is a HIPAA-aware patient-access agent (no medical advice, no refill approvals, no PHI before identity verification); WillCall is a PCI-aware ticketing agent whose architecture keeps card data entirely out of the AI environment.
+            - paragraph [ref=e208]: "Safety is mechanically provable: release-blocking CI evals enforce zero clinical advice / zero refill approvals (PatientLine) and a Luhn-checked scan proving zero card numbers in any transcript or log (WillCall) — shipped with Terraform IaC, BAA/PCI data-flow mapping, and ADRs defending every decision."
+            - link "Source" [ref=e210] [cursor=pointer]:
+              - /url: https://github.com/orbek/voice-agent-reference-architectures
+        - article [ref=e217]:
+          - generic [ref=e218]:
+            - text: "07"
+            - generic [ref=e219]:
+              - paragraph [ref=e220]: Internal HR System · Built and Rolled Out
+              - generic [ref=e221]:
+                - generic [ref=e222]: Angular
+                - generic [ref=e223]: Python
+                - generic [ref=e224]: AWS
+                - generic [ref=e225]: SQL Server
+                - generic [ref=e226]: Microsoft Entra ID
+                - generic [ref=e227]: SSO
+          - generic [ref=e228]:
+            - heading "Time & Attendance Platform" [level=3] [ref=e229]
+            - paragraph [ref=e230]: An employee-facing portal for time, attendance, and paid-time-off management, replacing manual PTO tracking for a distributed workforce. Angular front end on a Python API, hosted on AWS over SQL Server, with single sign-on through Microsoft Entra ID so it authenticates against the directory employees already use. I developed and implemented it end to end — requirements through deployment — and ran it as a controlled pilot before any wider release.
+            - paragraph [ref=e231]: "Piloted with corporate staff, now expanding to branch locations: a staged rollout that used the pilot to settle real workflow and edge cases before scaling, rather than a single launch across every site at once."
+            - generic [ref=e232]: Proprietary — no public link
+      - generic [ref=e237]:
+        - paragraph [ref=e238]: Other Projects
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - link "STEM PACTS App" [ref=e242] [cursor=pointer]:
+              - /url: https://mdcgrant.azurewebsites.net
+            - paragraph [ref=e243]: Grant management system for tracking metrics and objectives
+            - generic [ref=e244]:
+              - generic [ref=e245]: Azure
+              - generic [ref=e246]: Streamlit
+              - generic [ref=e247]: SQL Server
+          - generic [ref=e248]:
+            - link "Deep Learning Research" [ref=e250] [cursor=pointer]:
+              - /url: https://github.com/orbek/portfolio/blob/main/_backup/papers/Deep%20Learning%20-%20Analyzing%20the%20Behavior%20of%20an%20Imitation-Based%20Agent.pdf
+            - paragraph [ref=e251]: Imitation-based AI agents in simulated environments
+            - generic [ref=e252]:
+              - generic [ref=e253]: Deep Learning
+              - generic [ref=e254]: Imitation Learning
+          - generic [ref=e255]:
+            - link "NLP Model Robustness" [ref=e257] [cursor=pointer]:
+              - /url: https://github.com/orbek/portfolio/blob/main/_backup/papers/Mitigating%20Dataset%20Artifacts%20Through%20Fine%20Tuning%20and%20Ensemble-Based%20Training.pdf
+            - paragraph [ref=e258]: ELECTRA transformer robustness in NLI tasks
+            - generic [ref=e259]:
+              - generic [ref=e260]: ELECTRA
+              - generic [ref=e261]: NLP
+              - generic [ref=e262]: Ensemble Learning
+          - generic [ref=e263]:
+            - link "Disney Internship" [ref=e265] [cursor=pointer]:
+              - /url: https://github.com/orbek/DisneyIntership
+            - paragraph [ref=e266]: Customer purchase behavior prediction for marketing optimization
+            - generic [ref=e267]:
+              - generic [ref=e268]: Streamlit
+              - generic [ref=e269]: ML
+              - generic [ref=e270]: Python
+    - generic [ref=e272]:
+      - generic [ref=e273]:
+        - paragraph [ref=e274]: Writing
+        - heading "Notes & Essays" [level=2] [ref=e275]
+      - article [ref=e277]:
+        - link [ref=e278] [cursor=pointer]:
+          - /url: /blog/beauty-of-learning-begins-with-why
+          - generic [ref=e279]:
+            - paragraph [ref=e280]: July 26, 2026
+            - paragraph [ref=e281]: 5 min read
+          - generic [ref=e282]:
+            - heading "The Beauty of Learning Begins With “Why”" [level=3] [ref=e283]
+            - paragraph [ref=e284]: Creativity must be cultivated — and it begins with the courage to ask why. A personal reflection on how questioning changed my life.
+            - generic [ref=e285]: Read
+    - generic [ref=e291]:
+      - generic [ref=e292]:
+        - paragraph [ref=e293]: Credentials
+        - heading "Education & Certifications" [level=2] [ref=e294]: Education &Certifications
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - paragraph [ref=e297]: M.S. Data Science
+            - paragraph [ref=e298]: University of Texas at Austin
+            - paragraph [ref=e299]: "2024"
+          - generic [ref=e300]:
+            - paragraph [ref=e301]: B.S. Industrial Engineering
+            - paragraph [ref=e302]: FAESA
+            - paragraph [ref=e303]: "2016"
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e307]: Data Science & AIPython, ML, Deep Learning
+            - generic [ref=e308]: 10+
+          - generic [ref=e309]:
+            - generic [ref=e310]: Business IntelligencePower BI, Excel, SQL
+            - generic [ref=e311]: 8+
+          - generic [ref=e312]:
+            - generic [ref=e313]: Cloud & DevOpsAzure, AWS, Git
+            - generic [ref=e314]: 5+
+          - generic [ref=e315]:
+            - generic [ref=e316]: Agile & ManagementScrum, Sprint Planning
+            - generic [ref=e317]: 3+
+        - link "View all on Credly" [ref=e318] [cursor=pointer]:
+          - /url: https://www.credly.com/users/carlos-barbosa.71a6836a
+    - generic [ref=e324]:
+      - generic [ref=e325]:
+        - paragraph [ref=e326]: Contact
+        - heading "Let's build something together." [level=2] [ref=e327]: Let's buildsomethingtogether.
+        - paragraph [ref=e328]: Open to opportunities in AI implementation, data science consulting, and educational roles. If you have a problem worth solving, I'd like to hear about it.
+      - generic [ref=e330]:
+        - link [ref=e331] [cursor=pointer]:
+          - /url: mailto:carlos@databarbosa.com
+          - generic [ref=e335]:
+            - paragraph [ref=e336]: Email
+            - paragraph [ref=e337]: carlos@databarbosa.com
+        - link [ref=e338] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/09barbosacarlos
+          - generic [ref=e343]:
+            - paragraph [ref=e344]: LinkedIn
+            - paragraph [ref=e345]: /in/09barbosacarlos
+        - link [ref=e346] [cursor=pointer]:
+          - /url: https://github.com/orbek
+          - generic [ref=e350]:
+            - paragraph [ref=e351]: GitHub
+            - paragraph [ref=e352]: "@orbek"
+  - contentinfo [ref=e353]:
+    - paragraph [ref=e354]: © 2026 Carlos Barbosa
