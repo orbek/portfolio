@@ -58,7 +58,7 @@ const Projects = () => {
         },
         {
             title: 'Time & Attendance Platform',
-            subtitle: 'Internal HR System · Built and Rolled Out',
+            subtitle: 'Built and Rolled Out',
             description: 'An employee-facing portal for time, attendance, and paid-time-off management, replacing manual PTO tracking for a distributed workforce. Angular front end on a Python API, hosted on AWS over SQL Server, with single sign-on through Microsoft Entra ID so it authenticates against the directory employees already use. I developed and implemented it end to end — requirements through deployment — and ran it as a controlled pilot before any wider release.',
             result: 'Piloted with corporate staff, now expanding to branch locations: a staged rollout that used the pilot to settle real workflow and edge cases before scaling, rather than a single launch across every site at once.',
             tags: ['Angular', 'Python', 'AWS', 'SQL Server', 'Microsoft Entra ID', 'SSO'],
