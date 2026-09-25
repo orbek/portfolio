@@ -13,6 +13,7 @@ export const routes = [
         path: `/blog/${post.slug}`,
         title: `${post.title} | Carlos Barbosa`,
         description: post.excerpt,
+        image: post.cover,
     })),
 ];
 

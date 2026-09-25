@@ -27,7 +27,7 @@ const BlogPost = () => {
         return <Navigate to="/" replace />;
     }
 
-    const { title, date, readTime, Content } = post;
+    const { title, date, readTime, cover, coverAlt, Content } = post;
 
     return (
         <article className="min-h-screen bg-surface-deep">
@@ -54,6 +54,15 @@ const BlogPost = () => {
                     <h1 className="font-display text-3xl md:text-5xl font-bold text-neutral-900 tracking-tight leading-tight">
                         {title}
                     </h1>
+                    {cover && (
+                        <img
+                            src={cover}
+                            alt={coverAlt ?? ''}
+                            width="1200"
+                            height="630"
+                            className="mt-10 w-full h-auto rounded-md border border-neutral-200"
+                        />
+                    )}
                 </motion.header>
 
                 <motion.div

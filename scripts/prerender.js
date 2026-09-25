@@ -11,6 +11,9 @@ const ssrDir = path.join(root, 'dist-ssr');
 const { render, routes } = await import(path.join(ssrDir, 'entry-server.js'));
 const template = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
 
+// Absolute origin for link-preview tags (og:image must be an absolute URL).
+const SITE_URL = 'https://www.databarbosa.com';
+
 const escapeAttr = (s) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 
 for (const route of routes) {
@@ -34,6 +37,21 @@ for (const route of routes) {
         html = html
             .replace(/(<meta name="description" content=")[^"]*"/, `$1${description}"`)
             .replace(/(<meta property="og:description" content=")[^"]*"/, `$1${description}"`);
+    }
+
+    if (route.image) {
+        const image = escapeAttr(`${SITE_URL}${route.image}`);
+        const url = escapeAttr(`${SITE_URL}${route.path}`);
+        html = html.replace(
+            '</head>',
+            `    <meta property="og:image" content="${image}" />\n`
+            + '    <meta property="og:image:width" content="1200" />\n'
+            + '    <meta property="og:image:height" content="630" />\n'
+            + `    <meta property="og:url" content="${url}" />\n`
+            + '    <meta name="twitter:card" content="summary_large_image" />\n'
+            + `    <meta name="twitter:image" content="${image}" />\n`
+            + '  </head>',
+        );
     }
 
     const outFile = route.path === '/'

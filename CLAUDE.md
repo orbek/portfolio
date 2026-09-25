@@ -4,12 +4,12 @@ Use `src/`, `package.json`, and the deployment workflow as implementation truth.
 
 ## Second Brain
 
-The external context repository is `/Users/carlosbarbosa/knowledge/second-brain`.
+The external context repository is `/Users/carlosbarbosa/Documents/GitHub/knowledge/second-brain`.
 This project's records are in `projects/portfolio/`.
 
 Before answering questions involving project history, business context, stakeholders, roadmap, prior decisions, or current status:
 
-1. Read `/Users/carlosbarbosa/knowledge/second-brain/CLAUDE.md`.
+1. Read `/Users/carlosbarbosa/Documents/GitHub/knowledge/second-brain/CLAUDE.md`.
 2. Read `projects/portfolio/project-overview.md` and `projects/portfolio/project-status.md` in the Second Brain.
 3. Retrieve other Second Brain files only when relevant.
 4. Treat this repository as implementation truth and the Second Brain as contextual and historical truth.

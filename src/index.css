@@ -77,6 +77,72 @@
     @apply absolute left-0 top-[0.7em] w-2 h-px bg-accent;
   }
 
+  .post-body .lede {
+    @apply font-body italic text-xl text-neutral-600 leading-relaxed;
+  }
+
+  .post-body h2 {
+    @apply font-display text-2xl md:text-3xl font-bold text-neutral-900 tracking-tight leading-tight mt-16 mb-6;
+  }
+
+  .post-body strong {
+    @apply font-semibold text-neutral-900;
+  }
+
+  .post-body code {
+    @apply font-mono text-[0.85em] bg-surface-overlay text-neutral-800 px-1.5 py-0.5 rounded;
+  }
+
+  .post-body ol {
+    @apply my-8 space-y-3 list-decimal pl-6;
+  }
+
+  .post-body ol li {
+    @apply pl-2;
+  }
+
+  .post-body ol li::before {
+    content: none;
+  }
+
+  .post-body ol li::marker {
+    @apply font-mono text-sm text-accent-dark;
+  }
+
+  /* Tables scroll sideways on narrow screens instead of widening the page. */
+  .post-body .table-wrap {
+    @apply my-8 overflow-x-auto;
+  }
+
+  .post-body table {
+    @apply w-full border-collapse text-sm md:text-base;
+  }
+
+  .post-body th {
+    @apply font-mono text-[10px] uppercase tracking-widest text-neutral-500 font-medium text-left py-3 pr-4 border-b border-neutral-300 align-bottom;
+  }
+
+  .post-body td {
+    @apply py-3 pr-4 border-b border-neutral-200 align-top leading-snug;
+  }
+
+  .post-body .num {
+    @apply text-right tabular-nums;
+  }
+
+  /* Charts break out of the text column on wide screens. */
+  .post-body .post-figure {
+    @apply my-10 md:-mx-24;
+  }
+
+  .post-body .post-figure img {
+    @apply w-full h-auto rounded-md border border-neutral-200 bg-white;
+  }
+
+  .post-body .post-figure figcaption {
+    @apply font-mono text-xs text-neutral-500 mt-3 text-center;
+  }
+
   /* Rhythmic closing cadence: "Think. / Try. / Experiment. ..." */
   .post-body ul.cadence {
     @apply my-10 space-y-1;

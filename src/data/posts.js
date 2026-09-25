@@ -1,9 +1,10 @@
 // Central registry of blog posts.
 // To add a post: create a file in src/posts/, then import it and add it below.
 import beautyOfLearning from '../posts/beauty-of-learning-begins-with-why.jsx';
+import ticketRouting from '../posts/ticket-routing-frontier-models.jsx';
 
 // Newest first.
-export const posts = [beautyOfLearning].sort(
+export const posts = [beautyOfLearning, ticketRouting].sort(
     (a, b) => new Date(b.date) - new Date(a.date),
 );
 
