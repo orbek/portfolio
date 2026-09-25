@@ -60,7 +60,7 @@ const BlogPost = () => {
                             alt={coverAlt ?? ''}
                             width="1200"
                             height="630"
-                            className="mt-10 w-full h-auto rounded-md border border-neutral-200"
+                            className="mt-10 w-full h-auto rounded-md border border-neutral-300/70"
                         />
                     )}
                 </motion.header>

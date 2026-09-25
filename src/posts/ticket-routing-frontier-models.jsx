@@ -573,7 +573,7 @@ function Content() {
 
             <h2>The one&#8209;page version</h2>
 
-            <figure className="post-figure">
+            <figure className="post-figure framed">
                 <a href={`${ASSETS}/poster.png`} target="_blank" rel="noopener noreferrer">
                     <img
                         src={`${ASSETS}/poster.png`}

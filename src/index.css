@@ -135,8 +135,13 @@
     @apply my-10 md:-mx-24;
   }
 
+  /* Chart SVGs are transparent and use the site palette, so they sit on the page directly. */
   .post-body .post-figure img {
-    @apply w-full h-auto rounded-md border border-neutral-200 bg-white;
+    @apply w-full h-auto;
+  }
+
+  .post-body .post-figure.framed img {
+    @apply rounded-md border border-neutral-300/70;
   }
 
   .post-body .post-figure figcaption {
